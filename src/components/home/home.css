@@ -59,7 +59,7 @@
 /* bold title  (hey there am okereke) */
 .textAvatar {
   text-align: center;
-  margin-top: 0;
+  margin-top: 0.5em;
   font-size: 2em;
   color: #b2c4ce;
   font-weight: bold;
@@ -79,7 +79,7 @@
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-direction: alternate;
-  margin-top: 2em;
+  margin-top: 0.5em;
   margin-bottom: -1.5em;
   background-color: #2d12c5;
   color: #9db4c2;

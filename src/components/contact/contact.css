@@ -45,8 +45,8 @@ textarea {
 }
 input:focus,
 textarea:focus {
-  border-color: #090236;
-  outline-color: #090236;
+  border: none;
+  outline: none;
 }
 
 textarea {

@@ -37,7 +37,7 @@ header {
   cursor: pointer;
   width: 70px;
   overflow: hidden;
-  margin-bottom: 0em;
+  margin-bottom: 0.3em;
 }
 .menuContainer:hover {
   transform: scale(1.3);

@@ -28,6 +28,8 @@ const Home = () => {
               500,
               "AI Advocate",
               500,
+              "Hackathon Winner",
+              500,
               "Web Master",
               500,
             ]}

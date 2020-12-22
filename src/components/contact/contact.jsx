@@ -34,7 +34,9 @@ const Contact = () => {
               name="message"
               required
             />
-            <input type="submit" value="Send Mail" />
+            <button type="submit" name="submitForm">
+              Send Mail
+            </button>
           </form>
         </div>
       </section>

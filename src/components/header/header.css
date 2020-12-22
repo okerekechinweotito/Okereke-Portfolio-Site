@@ -27,6 +27,15 @@ header {
   font-style: oblique;
   text-align: right;
 }
+.okerekeLogo::selection {
+  background: transparent;
+}
+.okereke::-moz-selection {
+  background: transparent;
+}
+.okerekeLogo:hover {
+  transform: scale(1.1);
+}
 
 /* container that houses the menu lines */
 .menuContainer {
@@ -35,6 +44,11 @@ header {
   width: 70px;
   overflow: hidden;
   margin-bottom: 0.3em;
+}
+.menuContainer:hover {
+  transform: scale(1.3);
+  outline: none;
+  border: none;
 }
 
 /* menu lines */
@@ -134,14 +148,6 @@ header {
   .okerekeLogo,
   #header {
     display: none;
-  }
-  .okerekeLogo:hover {
-    transform: scale(1.1);
-  }
-  .menuContainer:hover {
-    transform: scale(1.3);
-    outline: none;
-    border: none;
   }
 
   /* Hidden logo on sidenav, activates on desktop screen */

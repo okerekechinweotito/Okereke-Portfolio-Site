@@ -29,9 +29,16 @@ const Projects = () => {
             <button className="demo">
               <i class="fas fa-globe"></i> Demo
             </button>
-            <button className="repo">
-              <i class="fab fa-github"></i> Repo
-            </button>
+
+            <a
+              href="https://github.com/okerekechinweotito/okereke.dev"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="repo">
+                <i class="fab fa-github"></i> Repo
+              </button>
+            </a>
           </div>
 
           {/* okereke.ga */}
@@ -46,14 +53,14 @@ const Projects = () => {
             </span>
 
             <div className="singlePageProfile"></div>
-            <a href="http://okereke.ga/" rel="external" target="_blank">
+            <a href="http://okereke.ga/" rel="noreferrer" target="_blank">
               <button className="demo">
                 <i class="fas fa-globe"></i> Demo
               </button>
             </a>
             <a
               href="https://github.com/okerekechinweotito/Single-Page-Profile"
-              rel="external"
+              rel="noreferrer"
               target="_blank"
             >
               <button className="repo">

@@ -220,7 +220,7 @@ class Resume extends Component {
           </div>
           <a
             href="https://drive.google.com/file/d/1CsJL7UEefJvzV_S5DV3jBCb3Sc-Q79Xo/view?usp=sharing"
-            rel="external"
+            rel="noreferrer"
             target="_blank"
           >
             {/* resume download */}

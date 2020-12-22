@@ -25,7 +25,11 @@ const Blog = () => {
               at. This article highlights the hottest most in-demand programming
               languages of 2021 ...
             </div>
-            <a href="#">
+            <a
+              href="https://okereke.hashnode.dev/"
+              rel="noreferrer"
+              target="_blank"
+            >
               <button className="blogReadButton">Read More...</button>
             </a>
           </div>
@@ -41,7 +45,11 @@ const Blog = () => {
               of Computer Science in Nigeria has become an item of ridicule and
               a National disgrace ...
             </div>
-            <a href="#">
+            <a
+              href="https://okereke.hashnode.dev/"
+              rel="noreferrer"
+              target="_blank"
+            >
               <button className="blogReadButton">Read More...</button>
             </a>
           </div>

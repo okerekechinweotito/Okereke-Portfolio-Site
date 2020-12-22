@@ -84,7 +84,7 @@
   background-color: #2d12c5;
   color: #9db4c2;
   font-weight: 900;
-  --width: 120px;
+  --width: 130px;
   --height: calc(var(--width) / 3);
   width: var(--width);
   height: var(--height);

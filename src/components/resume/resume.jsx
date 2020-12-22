@@ -14,13 +14,13 @@ class Resume extends Component {
             <hr />
           </h2>
           <p>
-            I'm a Frontend Developer, Certified Google Analytics Expert,
-            Computer Science Major and a Proficient Web Master. As a
-            fast-learner I am able to speedily adapt to high-productive working
-            environments while leveraging technology tools to deliver the best
-            solution to client needs. I participate in AI Advocacy and I dabble
-            into Machine Learning in my spare time. I also occasionally write on
-            my blog
+            My name is Okereke Chinweotito. I'm a Frontend Developer, Certified
+            Google Analytics Expert, Computer Science Major and a Proficient Web
+            Master. As a fast-learner I am able to speedily adapt to
+            high-productive working environments while leveraging technology
+            tools to deliver the best solution to client needs. I participate in
+            AI Advocacy and I dabble into Machine Learning in my spare time. I
+            also occasionally write on my blog
           </p>
         </section>
 

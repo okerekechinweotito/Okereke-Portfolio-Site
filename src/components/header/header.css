@@ -103,7 +103,7 @@ header {
 /* individual span on side navigation */
 .sideNav span,
 .sideNavHidden span {
-  padding: 8px 8px 8px 32px;
+  padding: 1em 8px 8px 32px;
   font-size: 20px;
   color: #36627c;
   display: block;

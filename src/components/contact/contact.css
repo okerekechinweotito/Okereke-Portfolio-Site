@@ -35,6 +35,9 @@ textarea {
   border-radius: 2em;
   color: #ffffff;
   padding-left: 1em;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 [type="text"],
 [type="email"] {

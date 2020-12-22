@@ -1,6 +1,8 @@
 /* horizontal line (hr tag) */
 .footerLine {
   color: #142a36;
+  background-color: #142a36;
+  border-color: #142a36;
   width: 90%;
 }
 /* icons wrapper */

@@ -13,7 +13,7 @@ const Contact = () => {
           <hr />
         </h2>
         <div className="contactWrapper">
-          <form action="POST" data-netlify="true">
+          <form action="POST" data-netlify="true" name="contactForm">
             <label>Name*</label>
             <input type="text" name="name" placeholder="Your Name" required />
             <label>Email*</label>

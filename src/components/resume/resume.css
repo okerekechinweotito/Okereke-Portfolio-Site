@@ -1,0 +1,355 @@
+/* main heading */
+h2 {
+  font-size: 1.5em;
+}
+
+/* smaller headings eg @certifications section */
+h5 {
+  margin-top: -1em;
+}
+/* line under h2 */
+h2 hr {
+  margin-top: 1px;
+  width: 2em;
+  background-color: #20688f;
+  height: 1px;
+  border: none;
+}
+/* descriptive text with bullet */
+ul {
+  margin-right: 1em;
+  text-align: justify;
+}
+
+/* main page wrapper */
+#resume {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -2em;
+  text-align: center;
+  color: #36627c;
+  font-size: 1em;
+}
+
+/* box wrapper used @ many instances */
+.box {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  text-align: justify;
+  text-align: center;
+}
+
+/* sections */
+.educationContent,
+.certificationsContent,
+.summaryContent {
+  margin-top: 1.5em;
+}
+
+/* text under summary  */
+.summaryContent p {
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: center;
+  text-indent: 1em;
+}
+
+/* Experience*/
+.logoName {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 5em;
+  align-items: center;
+  margin-left: 0.4em;
+}
+.logoName span {
+  font-size: 1.5em;
+}
+
+/* Certifications  */
+.certImage1,
+.certImage2,
+.certImage3,
+.certImage4,
+.certImage5,
+.certImage6,
+.certImage7,
+.certImage8 {
+  width: 18em;
+  height: 15em;
+  margin-top: -1em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.certImage1 {
+  background-image: url(https://i.ibb.co/6w3TgBh/responsive-web-design.png);
+}
+.certImage2 {
+  background-image: url(https://i.ibb.co/QDvcCTG/Javascript-Algorithm.png);
+}
+.certImage3 {
+  background-image: url(https://i.ibb.co/F5rvq5Y/google-analytics.png);
+}
+.certImage4 {
+  background-image: url(https://i.ibb.co/TrX2dV9/seo-foundations.png);
+}
+.certImage5 {
+  background-image: url(https://i.ibb.co/fxZkcB4/react-certificate.jpg);
+}
+.certImage6 {
+  background-image: url(https://i.ibb.co/JnmQ9S2/Java-Script-certificate.jpg);
+}
+.certImage7 {
+  background-image: url(https://i.ibb.co/mF8BrxC/CSS-certificate.jpg);
+}
+.certImage8 {
+  background-image: url(https://i.ibb.co/ccZwMHq/HTML-certificate.jpg);
+}
+/* individual cert box wrapper */
+.certBox {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1em;
+  background-color: #010c13;
+  background-color: #0e0413;
+}
+.certBox h5 {
+  margin-top: 0;
+}
+/* box containers from various sections */
+.upworkLogo,
+.weasleyLogo,
+.gdgLogo,
+.imsuLogo,
+.sololearnLogo,
+.fccLogo,
+.llLogo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 5em;
+  height: 5em;
+}
+.upworkLogo {
+  background-image: url(./asset/upworkLogo.png);
+}
+.weasleyLogo {
+  background-image: url(./asset/weasleyLogo.jpg);
+}
+.gdgLogo {
+  background-image: url(./asset/gdgLogo.png);
+}
+/* Education subheading */
+.imsuLogo {
+  background-image: url(./asset/imsuLogo.png);
+}
+.sololearnLogo {
+  background-image: url(./asset/sololearnLogo.png);
+}
+.fccLogo {
+  background-image: url(./asset/fccLogo.png);
+}
+.llLogo {
+  background-image: url(./asset/llLogo.png);
+}
+/* resume download button */
+.resumeDownload {
+  margin-top: 1em;
+  margin-bottom: 3em;
+  background-color: #090236;
+  border: none;
+  border-radius: 0.5em;
+  color: #9db4c2;
+  padding: 0.3em;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.resumeDownload:hover {
+  background-color: #01090e;
+}
+/* Bottom Button styling */
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+
+/* Next and Prev Buttons on the bottom */
+.prevButton,
+.nextButton {
+  animation-name: button;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  margin-top: 0.5em;
+  background-color: #2d12c5;
+  color: #9db4c2;
+  font-weight: 900;
+  --width: 100px;
+  --height: calc(var(--width) / 3);
+  width: var(--width);
+  height: var(--height);
+  text-align: center;
+  line-height: var(--height);
+  font-size: calc(var(--height) / 2.5);
+  font-family: sans-serif;
+  letter-spacing: 0.2em;
+  border-radius: 2em;
+  position: relative;
+  overflow: hidden;
+  text-shadow: 6px 3px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 0 0 5px rgba(0, 0, 0, 0.2);
+  transform: perspective(500px) rotateY(-45deg);
+}
+
+.nextButton::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, #ffffff, transparent);
+  left: -100%;
+  transition: 0.5s;
+}
+.prevButton::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, #ffffff, transparent);
+  left: -100%;
+  transition: 0.5s;
+}
+
+.nextButton:hover::before {
+  left: 50%;
+}
+
+.prevButton:hover::before {
+  left: 50%;
+}
+
+@keyframes button {
+  0% {
+    transform: perspective(500px) rotateY(-45deg);
+  }
+
+  50% {
+    transform: perspective(500px) rotateY(45deg);
+  }
+}
+
+/* media queries for desktop screen */
+@media screen and (min-width: 749px) {
+  /* main page wrapper */
+  #resume {
+    margin-left: 20em;
+    margin-top: -5em;
+  }
+  /* summary section*/
+  .summaryContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80em;
+    min-height: auto;
+  }
+  /* text under summary  */
+  .summaryContent p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 60vw;
+    font-size: 1.8em;
+    margin-top: 0;
+  }
+
+  /* experience section */
+  .experienceContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80em;
+    min-height: auto;
+  }
+
+  /* text inside experience box */
+  .experienceContent .box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 60vw;
+    font-size: 1.5em;
+  }
+  /* education section */
+  .educationContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80em;
+    min-height: auto;
+  }
+  .educationContent .box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 60vw;
+    font-size: 1.5em;
+  }
+
+  /* certification content */
+  .certificationsContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80em;
+    min-height: auto;
+  }
+  .certificationsContent .box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 60vw;
+    font-size: 1.5em;
+  }
+  .certBox {
+    width: 28vw;
+    height: 28vw;
+    overflow-x: hidden;
+  }
+
+  /* resume download button */
+  .resumeDownload {
+    margin-top: 0;
+    padding: 0.5em;
+    font-size: 2em;
+  }
+
+  /* Next and Prev Buttons wrapper on the bottom */
+
+  .buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30em;
+  }
+  .prevButton,
+  .nextButton {
+    --width: 150px;
+  }
+}

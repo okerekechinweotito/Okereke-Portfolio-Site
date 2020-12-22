@@ -1,0 +1,121 @@
+/* main page wrapper */
+#projects {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -2em;
+  text-align: center;
+  color: #36627c;
+  font-size: 1em;
+}
+
+/* projects wrapper*/
+.projectsContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5em;
+}
+/* individual project box */
+.projectBox {
+  margin-bottom: 2em;
+  margin-top: 1em;
+  width: 19em;
+  height: 23em;
+  background-color: #0e0413;
+}
+
+/* individual picture boxes */
+.okerekeDev,
+.singlePageProfile {
+  width: 17em;
+  height: 15em;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+}
+/* project picture url */
+.okerekeDev {
+  background-image: url(./asset/okerekedev.png);
+}
+.singlePageProfile {
+  background-image: url(./asset/okerekega.png);
+}
+
+/* demo repo buttons */
+.demo,
+.repo {
+  background-color: #090236;
+  border: none;
+  border-radius: 5em;
+  color: #93b6c9;
+  padding: 0.5em;
+  font-size: 1.2em;
+  cursor: pointer;
+  border: none;
+  width: 40%;
+}
+.repo .fa-github {
+  color: #93b6c9 !important;
+}
+.demo {
+  margin-right: 1em;
+}
+.repo {
+  margin-left: 1em;
+}
+.demo:hover,
+.repo:hover {
+  background-color: #01090e;
+}
+.repo .fa-github {
+  color: #36627c;
+}
+/* project title */
+.projectTitle {
+  font-size: 1.5em;
+}
+
+/* media queries for desktop view */
+@media screen and (min-width: 749px) {
+  /* main page wrapper */
+  #projects {
+    margin-left: 20em;
+  }
+  /* projects wrapper*/
+  .projectsContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80em;
+    min-height: auto;
+    margin-top: -7em;
+  }
+  .projectWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80vw;
+  }
+  /* individual project box */
+  .projectBox {
+    width: 30em;
+    height: 24em;
+  }
+
+  /* individual picture boxes */
+  .okerekeDev,
+  .singlePageProfile {
+    width: 30em;
+    height: 15em;
+  }
+  /* text in project box */
+  .projectDescription {
+    font-size: 1.5em;
+  }
+}

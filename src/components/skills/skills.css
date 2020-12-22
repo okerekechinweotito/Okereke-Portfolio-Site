@@ -1,0 +1,279 @@
+/* page wrapper */
+#skills {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #36627c;
+  font-size: 1em;
+  margin-top: -2em;
+}
+/* header and header line*/
+h2 {
+  font-size: 1.5em;
+}
+h2 hr {
+  margin-top: 1px;
+  width: 2em;
+  background-color: #20688f;
+  height: 1px;
+  border: none;
+}
+
+/* sections - skills, Values, recommendations */
+.skillsContent,
+.valuesContent,
+.recommendContent {
+  width: 20em;
+  margin-top: 1.5em;
+}
+
+/* box wrapper */
+.logoWrap {
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* individual boxes */
+.logoBox {
+  width: 8em;
+  margin: 1em;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+.logoBox:hover {
+  transform: scale(1.1);
+}
+
+/* picture boxes - icons & other formats */
+.logoPic,
+.jsx,
+.googleA,
+.seo,
+.photoshop,
+.responsivePic,
+.fastPic,
+.simplePic,
+.dynamicPic {
+  width: 8em;
+  height: 7em;
+}
+
+/* icons that are pictures */
+.jsx,
+.googleA,
+.seo,
+.photoshop,
+.responsivePic,
+.fastPic,
+.simplePic,
+.dynamicPic {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.jsx {
+  background-image: url("https://cdn0.iconfinder.com/data/icons/file-formats-flat/512/jsx-512.png");
+}
+.googleA {
+  background-image: url("https://cdn.worldvectorlogo.com/logos/google-analytics-4.svg");
+}
+.seo {
+  background-image: url(https://www.svgrepo.com/show/220473/seo.svg);
+}
+.photoshop {
+  background-image: url(https://www.photoshop.com/en/images/apps/photoshop.png);
+}
+
+/* Values section - illustration boxes and picture urls */
+
+/* short descriptive text */
+.valuesContent span {
+  color: #36627c !important;
+}
+.responsivePic {
+  background-image: url(./asset/responsive.svg);
+}
+.fastPic {
+  background-image: url(./asset/fast.svg);
+}
+.simplePic {
+  background-image: url(./asset/simple.svg);
+}
+.dynamicPic {
+  background-image: url(./asset/dynamic.svg);
+}
+
+/* icons from font-awesome */
+.fa-html5 {
+  color: #da6213;
+}
+.fa-css3-alt {
+  color: #3315db;
+}
+.fa-js-square {
+  color: #fffb05;
+}
+.fa-react {
+  color: #3da3bd;
+}
+.fa-git-alt {
+  color: #c43e1c;
+}
+.fa-github {
+  color: #ffffff;
+}
+.fa-npm {
+  color: #dd1e1e;
+}
+
+/* icons from devIcons */
+.devicon-redux-original,
+.devicon-babel-plain,
+.devicon-illustrator-plain,
+.devicon-webpack-plain,
+.devicon-jquery-plain {
+  font-size: 7em;
+}
+
+/* Recommendation section */
+
+/* Person box, contains name and company */
+.recommendPerson {
+  display: flex;
+  height: 5em;
+  margin-top: -1em;
+  margin-left: 0.5em;
+}
+/* overall recommend box wrapper */
+.recommendWrapper {
+  width: 20em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* individual recommend box */
+.recommendBox {
+  width: 19em;
+  height: auto;
+  margin-bottom: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
+  background-color: #010c13;
+}
+/* recommend person picture boxes */
+.recommendPic1,
+.recommendPic2,
+.recommendPic3,
+.recommendPic4 {
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 0.5em;
+}
+/* recommend person name */
+.recommendName {
+  display: inline-block;
+  width: 14em;
+  height: 4em;
+  text-align: start;
+}
+/* horizontal ine */
+span hr {
+  background-color: #20688f;
+  height: 1px;
+  border: none;
+}
+/* recommend person picture */
+.recommendPic1 {
+  background-image: url(./asset/victor.jfif);
+}
+.recommendPic2 {
+  background-image: url(./asset/ruth.jfif);
+}
+.recommendPic3 {
+  background-image: url(./asset/ndubusi.jfif);
+}
+.recommendPic4 {
+  background-image: url(./asset/dennis.jfif);
+}
+
+/* media queries for desktop view */
+@media screen and (min-width: 749px) {
+  /* page wrapper */
+  #skills {
+    margin-left: 20em;
+    margin-top: -5em;
+  }
+  /* section title */
+  h2 {
+    font-size: 4em;
+    text-align: center;
+    width: 20em;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  /* skill section wrapper */
+  .skillsContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80em;
+    min-height: auto;
+  }
+  /* overall logo wrap */
+  .logoWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80vw;
+    font-size: 1.5em;
+  }
+
+  /* logowrapper in values section */
+  .valuesContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80em;
+    min-height: auto;
+  }
+  .valuesContent .logoWrap {
+    width: 80vw;
+  }
+  /* overall recommend box wrapper */
+  .recommendContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80em;
+    min-height: auto;
+  }
+  .recommendWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80vw;
+  }
+  /* individual recommend box */
+  .recommendBox {
+    width: 25em;
+    height: 28em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  /* recommend box texts */
+  .recommendBox span,
+  .recommendPerson span {
+    font-size: 1.12em;
+  }
+}

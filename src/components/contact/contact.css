@@ -1,0 +1,121 @@
+/* page wrapper */
+#contact {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -2em;
+  text-align: center;
+  color: #36627c;
+  font-size: 1em;
+}
+
+/* contact wrapper */
+.contactContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5em;
+}
+/* actual form */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 19em;
+  margin-bottom: 2em;
+}
+[type="text"],
+[type="email"],
+textarea {
+  background-color: #090236;
+  border: none;
+  border-radius: 2em;
+  color: #ffffff;
+  padding-left: 1em;
+}
+[type="text"],
+[type="email"] {
+  height: 3em;
+  width: 19em;
+  margin-bottom: 1em;
+  font-weight: 900;
+}
+
+textarea {
+  margin: 0.5em;
+  height: 9em;
+  resize: none;
+  padding-left: 1em;
+  padding-top: 1em;
+  width: 19em;
+  font-weight: 900 !important;
+}
+[type="submit"] {
+  height: 3em;
+  width: 15em;
+  appearance: none;
+  border: none;
+  border-radius: 2em;
+  background-color: #090236;
+  color: #9db4c2;
+  font-weight: 900;
+  cursor: pointer;
+}
+[type="submit"]:hover {
+  background-color: #01090e;
+}
+/* label of each form element */
+label {
+  width: 13em;
+  font-size: 1.2em;
+  text-align: start;
+}
+
+/* media queries for desktop view */
+@media screen and (min-width: 749px) {
+  /* page wrapper */
+  #contact {
+    margin-left: 20em;
+    margin-top: -5em;
+  }
+
+  /* contactt section wrapper */
+  .contactContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80em;
+    min-height: auto;
+  }
+  /* overall logo wrap */
+  .contactWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80vw;
+    font-size: 1.5em;
+  }
+
+  [type="text"],
+  [type="email"] {
+    font-size: 0.6em;
+    width: 30em;
+    height: 5em;
+    margin-bottom: 0.5em;
+  }
+  textarea {
+    font-size: 0.8em;
+    width: 27em;
+    margin-top: 0;
+  }
+  [type="submit"] {
+    font-size: 0.7em;
+  }
+  label {
+    display: none;
+  }
+}

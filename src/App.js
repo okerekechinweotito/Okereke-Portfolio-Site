@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Header from "./components/header/header.jsx";
+import Home from "./components/home/home.jsx";
+import Footer from "./components/footer/footer.jsx";
+import Resume from "./components/resume/resume.jsx";
+import Skills from "./components/skills/skills.jsx";
+import Projects from "./components/projects/projects.jsx";
+import Blog from "./components/blog/blog.jsx";
+import Contact from "./components/contact/contact.jsx";
+import ScrollToTop from "./components/footer/scrollToTop.jsx";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <ScrollToTop />
+      <div className="App">
+        <Header />
+        <Switch>
+          <Route path="/" exact component={Home} />
+
+          <Route path="/skills" component={Skills} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/resume" component={Resume} />
+          <Route path="/blog" component={Blog} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

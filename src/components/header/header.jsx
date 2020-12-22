@@ -47,10 +47,9 @@ const Header = () => {
     /* Header Bar */
     <header>
       <aside id="header">
-        <a href="https://okereke.netlify.app/" rel="noreferrer" target="_self">
-          {" "}
+        <Link to="/">
           <div className="okerekeLogo">Okereke</div>
-        </a>
+        </Link>
 
         {/* 3 menu-line */}
 

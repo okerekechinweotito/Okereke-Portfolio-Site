@@ -1,3 +1,9 @@
+*:focus {
+  outline: hidden;
+}
+*:hover {
+  outline: hidden;
+}
 body {
   overflow-x: hidden;
   margin: 0;

@@ -27,24 +27,12 @@ header {
   font-style: oblique;
   text-align: right;
 }
-.okerekeLogo::selection {
-  background: transparent;
-}
-.okereke::-moz-selection {
-  background: transparent;
-}
 .okerekeLogo:hover {
   transform: scale(1.1);
 }
 
 /* container that houses the menu lines */
-.menuContainer {
-  display: inline-block;
-  cursor: pointer;
-  width: 70px;
-  overflow: hidden;
-  margin-bottom: 0.3em;
-}
+
 .menuContainer:hover {
   transform: scale(1.3);
   outline: none;
@@ -61,6 +49,8 @@ header {
   width: 35px;
   pointer-events: none;
   transition: 0.4s;
+  margin-right: 1em;
+  margin-top: 0;
 }
 .bar2 {
   width: 25px;

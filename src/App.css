@@ -1,8 +1,10 @@
 *:focus {
-  outline: hidden;
+  outline: none;
+  border: none;
 }
 *:hover {
-  outline: hidden;
+  outline: none !important;
+  border: none !important;
 }
 body {
   overflow-x: hidden;

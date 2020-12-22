@@ -13,26 +13,25 @@ const Contact = () => {
           <hr />
         </h2>
         <div className="contactWrapper">
-          <form method="POST" data-netlify="true" name="contactForm">
+          <form name="contactForm" method="post" data-netlify="true">
+            <input type="hidden" name="form-name" value="contactForm" />
             <label>Name*</label>
             <input
               type="text"
-              name="yourName"
+              name="userName"
               placeholder="Your Name"
               required
             />
             <label>Email*</label>
             <input
               type="email"
-              name="yourEmail"
+              name="userEmail"
               placeholder="Your Email"
               required
             />
             <label>Message*</label>
-            <textarea placeholder="Input your Message" name="message" />
-            <button type="submit" name="submitForm">
-              Send Mail
-            </button>
+            <textarea name="userMessage" placeholder="Input your Message" />
+            <button type="submit">Send Mail</button>
           </form>
         </div>
       </section>

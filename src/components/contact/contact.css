@@ -35,9 +35,6 @@ textarea {
   border-radius: 2em;
   color: #ffffff;
   padding-left: 1em;
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
 }
 [type="text"],
 [type="email"] {
@@ -45,6 +42,11 @@ textarea {
   width: 19em;
   margin-bottom: 1em;
   font-weight: 900;
+}
+input:focus,
+textarea:focus {
+  border-color: #090236;
+  outline-color: #090236;
 }
 
 textarea {

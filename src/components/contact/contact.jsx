@@ -15,11 +15,16 @@ const Contact = () => {
         <div className="contactWrapper">
           <form action="POST" data-netlify="true" name="contactForm">
             <label>Name*</label>
-            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="text"
+              name="yourName"
+              placeholder="Your Name"
+              required
+            />
             <label>Email*</label>
             <input
               type="email"
-              name="email"
+              name="yourEmail"
               placeholder="Your Email"
               required
             />
@@ -29,7 +34,7 @@ const Contact = () => {
               name="message"
               required
             />
-            <input type="submit" value="Send Mail &nbsp;>>" />
+            <input type="submit" value="Send Mail" />
           </form>
         </div>
       </section>

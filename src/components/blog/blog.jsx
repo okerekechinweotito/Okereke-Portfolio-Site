@@ -16,7 +16,7 @@ const Blog = () => {
         <div className="blogWrapper">
           <div className="blogBox">
             <span className="projectTitle">
-              Top 7 BEST Programming Languages Of 2021
+              Top 7 Programming Languages to learn in 2021
             </span>
             <div className="blogPic1"></div>
             <div className="blogSnippet">
@@ -26,7 +26,7 @@ const Blog = () => {
               languages of 2021 ...
             </div>
             <a
-              href="https://okereke.hashnode.dev/"
+              href="https://okereke.hashnode.dev/top-7-programming-languages-to-learn-in-2021"
               rel="noreferrer"
               target="_blank"
             >
@@ -36,17 +36,18 @@ const Blog = () => {
           {/* blog post */}
           <div className="blogBox">
             <span className="projectTitle">
-              Computer Science In Nigeria -The Decay Of a Discipline
+              (A Short Rant) Computer Science Lecturers - Incompetence is
+              certainty in the absence of expertise.
             </span>
             <div className="blogPic2"></div>
             <div className="blogSnippet">
-              From clueless Lecturers who use deprecated syllabus, to unserious
-              students that can't muster a single line of code. The Department
-              of Computer Science in Nigeria has become an item of ridicule and
-              a National disgrace ...
+              From clueless Lecturers who use deprecated syllabus, to Professors
+              who can't muster a single line of code. Computer Science lecturers
+              in Nigeria have become an item of ridicule and a National
+              disgrace...
             </div>
             <a
-              href="https://okereke.hashnode.dev/"
+              href="https://okereke.hashnode.dev/a-short-rant-computer-science-lecturers-incompetence-is-certainty-in-the-absence-of-expertise"
               rel="noreferrer"
               target="_blank"
             >

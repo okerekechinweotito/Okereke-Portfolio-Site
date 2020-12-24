@@ -26,10 +26,11 @@ const Projects = () => {
             </span>
 
             <div className="okerekeDev"></div>
-            <button className="demo">
-              <i class="fas fa-globe"></i> Demo
-            </button>
-
+            <a href="https://www.okereke.dev/" rel="noreferrer" target="_blank">
+              <button className="demo">
+                <i class="fas fa-globe"></i> Demo
+              </button>
+            </a>
             <a
               href="https://github.com/okerekechinweotito/okereke.dev"
               rel="noreferrer"

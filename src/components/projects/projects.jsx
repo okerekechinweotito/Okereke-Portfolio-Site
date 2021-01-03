@@ -21,7 +21,7 @@ const Projects = () => {
               <br />
             </span>
             <span className="projectDescription">
-              My Portfolio site
+              My Portfolio Site
               <br />| React | HTML | CSS |{" "}
             </span>
 
@@ -45,22 +45,23 @@ const Projects = () => {
           {/* okereke.ga */}
           <div className="projectBox">
             <span className="projectTitle">
-              Single-Page Profile
+              ZaddyTv
               <br />
             </span>
             <span className="projectDescription">
-              A simple single page profile
+              Landing Page for a Whatsapp TV
               <br />| HTML | CSS |{" "}
             </span>
 
-            <div className="singlePageProfile"></div>
-            <a href="http://okereke.ga/" rel="noreferrer" target="_blank">
+            <div className="zaddyTv"></div>
+            <a href="http://zaddytv.ga" rel="noreferrer" target="_blank">
               <button className="demo">
                 <i class="fas fa-globe"></i> Demo
               </button>
             </a>
+
             <a
-              href="https://github.com/okerekechinweotito/Single-Page-Profile"
+              href="https://github.com/okerekechinweotito/ZaddyTv-landing_page_for_whatsapp_group_tv"
               rel="noreferrer"
               target="_blank"
             >

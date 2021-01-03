@@ -29,7 +29,7 @@
 
 /* individual picture boxes */
 .okerekeDev,
-.singlePageProfile {
+.zaddyTv {
   width: 17em;
   height: 15em;
   border: none;
@@ -42,8 +42,8 @@
 .okerekeDev {
   background-image: url(./asset/okerekedev.png);
 }
-.singlePageProfile {
-  background-image: url(./asset/okerekega.png);
+.zaddyTv {
+  background-image: url(./asset/zaddyTvga.png);
 }
 
 /* demo repo buttons */
@@ -110,7 +110,7 @@
 
   /* individual picture boxes */
   .okerekeDev,
-  .singlePageProfile {
+  .zaddyTv {
     width: 30em;
     height: 15em;
   }

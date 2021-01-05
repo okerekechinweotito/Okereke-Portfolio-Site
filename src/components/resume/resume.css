@@ -32,7 +32,7 @@ ul {
   margin-top: -2em;
   text-align: center;
   /*  color: #36627c; */
-  color: #ecf1f5;
+  color: #b2c4ce;
   font-size: 1em;
 }
 
@@ -59,6 +59,7 @@ ul {
   margin-right: 1em;
   text-align: center;
   text-indent: 1em;
+  font-size: 1.5em;
 }
 
 /* Experience*/

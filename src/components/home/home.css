@@ -60,17 +60,17 @@
 .textAvatar {
   text-align: center;
   margin-top: 0.5em;
-  font-size: 2.5em;
+  font-size: 2.8em;
   color: #b2c4ce;
-  font-weight: bold;
+  font-weight: bolder;
   height: 5em;
 }
 /* text with typing animation */
 .textAvatar span {
   font-weight: lighter;
-  /* optional  color: #36627c; */
-  color: #ecf1f5;
+  color: #b2c4ce;
   font-size: 1em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /* explore button */
@@ -151,7 +151,7 @@
   }
   /* explore button */
   .exploreButton {
-    margin-top: 1em;
+    margin-top: -3em;
     --width: 150px;
   }
 }

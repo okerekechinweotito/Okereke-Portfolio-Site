@@ -76,10 +76,14 @@ const Projects = () => {
       {/* react router dependency  next and prev buttons  */}
       <div class="buttonContainer">
         <Link to="/skills">
-          <div className="prevButton">Skills</div>
+          <div className="prevButton" id="static-button-prev">
+            Skills
+          </div>
         </Link>
         <Link to="/resume">
-          <div className="nextButton">Résumé</div>
+          <div className="nextButton" id="static-button-next">
+            Résumé
+          </div>
         </Link>
       </div>
     </article>

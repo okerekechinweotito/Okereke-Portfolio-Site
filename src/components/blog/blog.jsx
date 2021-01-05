@@ -60,10 +60,14 @@ const Blog = () => {
       {/* react router dependency next and prev buttons */}
       <div class="buttonContainer">
         <Link to="/resume">
-          <div className="prevButton">Résumé</div>
+          <div className="prevButton" id="static-button-prev">
+            Résumé
+          </div>
         </Link>
         <Link to="/contact">
-          <div className="nextButton">Contact</div>
+          <div className="nextButton" id="static-button-next">
+            Contact
+          </div>
         </Link>
       </div>
     </article>

@@ -246,10 +246,14 @@ const Skills = () => {
       {/* react router dependency  next and prev buttons  */}
       <section className="buttonContainer">
         <Link to="/">
-          <div className="prevButton">Home</div>
+          <div className="prevButton" id="static-button-prev">
+            Home
+          </div>
         </Link>
         <Link to="/projects">
-          <div className="nextButton">Projects</div>
+          <div className="nextButton" id="static-button-next">
+            Projects
+          </div>
         </Link>
       </section>
     </article>

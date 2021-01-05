@@ -232,10 +232,14 @@ class Resume extends Component {
         {/* react typical dependency prev and next buttons */}
         <section class="buttonContainer">
           <Link to="/projects">
-            <div className="prevButton">Projects</div>
+            <div className="prevButton" id="static-button-prev">
+              Projects
+            </div>
           </Link>
           <Link to="/blog">
-            <div className="nextButton">Blog</div>
+            <div className="nextButton" id="static-button-next">
+              Blog
+            </div>
           </Link>
         </section>
       </article>

@@ -6,7 +6,8 @@
   align-items: center;
   margin-top: -2em;
   text-align: center;
-  color: #36627c;
+  /* color: #36627c; */
+  color: #ecf1f5;
   font-size: 1em;
 }
 
@@ -77,6 +78,15 @@ label {
   width: 13em;
   font-size: 1.2em;
   text-align: start;
+}
+
+/* buttons */
+#static-button-prev {
+  animation: none;
+}
+#static-button-next {
+  animation: none;
+  transform: perspective(500px) rotateY(45deg);
 }
 
 /* media queries for desktop view */

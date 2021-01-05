@@ -68,7 +68,8 @@
 /* text with typing animation */
 .textAvatar span {
   font-weight: lighter;
-  color: #36627c;
+  /* optional  color: #36627c; */
+  color: #ecf1f5;
   font-size: 1em;
 }
 
@@ -98,7 +99,7 @@
   overflow: hidden;
   text-shadow: 6px 3px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 2px 0 0 5px rgba(0, 0, 0, 0.2);
-  transform: perspective(500px) rotateY(-45deg);
+  transform: perspective(500px) rotateY(45deg);
 }
 /* hidden white background on explore button */
 .exploreButton::before {
@@ -114,7 +115,7 @@
 .exploreButton:hover::before {
   left: 50%;
 }
-/* explore button rotation effect */
+/* explore button rotation effect 
 @keyframes exploreButton {
   0% {
     transform: perspective(500px) rotateY(-45deg);
@@ -123,7 +124,7 @@
   50% {
     transform: perspective(500px) rotateY(45deg);
   }
-}
+}  */
 /* alignment of avatar picture to fit smallar screens (personal preference, not important) */
 @media only screen and (max-height: 440px) {
   #home {

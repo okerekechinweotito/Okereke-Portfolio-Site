@@ -38,10 +38,14 @@ const Contact = () => {
       <div class="buttonContainer">
         {/* react router dependency next and prev buttons */}
         <Link to="/blog">
-          <div className="prevButton">Blog</div>
+          <div className="prevButton" id="static-button-prev">
+            Blog
+          </div>
         </Link>
         <Link to="/">
-          <div className="nextButton">Home</div>
+          <div className="nextButton" id="static-button-next">
+            Home
+          </div>
         </Link>
       </div>
     </article>

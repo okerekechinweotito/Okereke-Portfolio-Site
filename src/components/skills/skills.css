@@ -11,7 +11,7 @@
 }
 /* header and header line*/
 h2 {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 h2 hr {
   margin-top: 1px;
@@ -91,7 +91,9 @@ h2 hr {
 
 /* short descriptive text */
 .valuesContent span {
-  color: #36627c !important;
+  /*  color: #36627c; */
+  color: #ecf1f5;
+  font-size: 1.3em;
 }
 .responsivePic {
   background-image: url(./asset/responsive.svg);
@@ -153,6 +155,7 @@ h2 hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #ecf1f5;
 }
 /* individual recommend box */
 .recommendBox {

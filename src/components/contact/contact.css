@@ -88,7 +88,6 @@ label {
 #static-button-next {
   animation: none;
   transform: perspective(500px) rotateY(45deg);
-  transform: perspective(200px) rotateY(45deg);
 }
 
 /* media queries for desktop view */

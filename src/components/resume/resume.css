@@ -57,9 +57,8 @@ ul {
 .summaryContent p {
   margin-left: 1em;
   margin-right: 1em;
-  text-align: justify;
-  /*  text-indent: 1em; */
-  font-size: 1.5em;
+  text-align: center;
+  text-indent: 1em;
 }
 
 /* Experience*/

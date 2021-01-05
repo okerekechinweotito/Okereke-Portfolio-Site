@@ -115,14 +115,14 @@ const Skills = () => {
           <div className="logoBox">
             <div className="responsivePic"></div>
             <span>
-              RESPONSIVE
+              <strong>RESPONSIVE</strong>
               <br /> my website scales nicely on any device,big or small
             </span>
           </div>
           <div className="logoBox">
             <div className="fastPic"></div>
             <span>
-              SPEED
+              <strong>SPEED</strong>
               <br />
               fast load times and lag free interaction
             </span>
@@ -130,14 +130,14 @@ const Skills = () => {
           <div className="logoBox">
             <div className="simplePic"></div>
             <span>
-              SIMPLICITY
+              <strong>SIMPLICITY</strong>
               <br />I keep my website layout simple and consistent
             </span>
           </div>
           <div className="logoBox">
             <div className="dynamicPic"></div>
             <span>
-              DYNAMIC
+              <strong>DYNAMIC</strong>
               <br />I love making pages come to live
             </span>
           </div>

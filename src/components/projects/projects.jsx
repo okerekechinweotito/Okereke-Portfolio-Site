@@ -61,7 +61,7 @@ const Projects = () => {
             </a>
 
             <a
-              href="https://github.com/okerekechinweotito/ZaddyTv-landing_page_for_whatsapp_group_tv"
+              href="https://github.com/okerekechinweotito/ZaddyTv"
               rel="noreferrer"
               target="_blank"
             >

@@ -30,7 +30,10 @@
 
 /* individual picture boxes */
 .okerekeDev,
-.zaddyTv {
+.zaddyTv,
+.movieZone,
+.quizApp,
+.todoList {
   width: 17em;
   height: 15em;
   border: none;
@@ -45,6 +48,16 @@
 }
 .zaddyTv {
   background-image: url(./asset/zaddyTvga.png);
+}
+
+.movieZone {
+  background-image: url(./asset/movieZone.png);
+}
+.quizApp {
+  background-image: url(./asset/quiz.png);
+}
+.todoList {
+  background-image: url(./asset/todolist.png);
 }
 
 /* demo repo buttons */
@@ -111,7 +124,10 @@
 
   /* individual picture boxes */
   .okerekeDev,
-  .zaddyTv {
+  .zaddyTv,
+  .movieZone,
+  .quizApp,
+  .todoList {
     width: 30em;
     height: 15em;
   }

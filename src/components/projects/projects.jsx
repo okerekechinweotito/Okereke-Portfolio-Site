@@ -13,6 +13,64 @@ const Projects = () => {
           <hr />
         </h2>
         <div className="projectWrapper">
+          {/* MovieZone */}
+          <div className="projectBox">
+            <span className="projectTitle">
+              Movie Search App
+              <br />
+            </span>
+            <span className="projectDescription">
+              Discover new movies and watch exciting trailers
+              <br />| React | MovieDB API | Styled Components
+            </span>
+
+            <div className="movieZone"></div>
+            <a href="http://movie.okereke.dev" rel="noreferrer" target="_blank">
+              <button className="demo">
+                <i class="fas fa-globe"></i> Demo
+              </button>
+            </a>
+
+            <a
+              href="https://github.com/okerekechinweotito/MovieZone"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="repo">
+                <i class="fab fa-github"></i> Repo
+              </button>
+            </a>
+          </div>
+
+          {/* Quizz app */}
+          <div className="projectBox">
+            <span className="projectTitle">
+              Quiz App
+              <br />
+            </span>
+            <span className="projectDescription">
+              Quiz App - Test your knowledge with a range of General Questions
+              <br />| HTML | CSS | React |
+            </span>
+
+            <div className="quizApp"></div>
+            <a href="http://quiz.okereke.dev" rel="noreferrer" target="_blank">
+              <button className="demo">
+                <i class="fas fa-globe"></i> Demo
+              </button>
+            </a>
+
+            <a
+              href="https://github.com/okerekechinweotito/quiz-app"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="repo">
+                <i class="fab fa-github"></i> Repo
+              </button>
+            </a>
+          </div>
+
           {/* okereke.dev */}
           <div className="projectBox">
             <span className="projectTitle">
@@ -42,7 +100,7 @@ const Projects = () => {
             </a>
           </div>
 
-          {/* okereke.ga */}
+          {/* ZaddyTV */}
           <div className="projectBox">
             <span className="projectTitle">
               ZaddyTv
@@ -62,6 +120,39 @@ const Projects = () => {
 
             <a
               href="https://github.com/okerekechinweotito/ZaddyTv"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="repo">
+                <i class="fab fa-github"></i> Repo
+              </button>
+            </a>
+          </div>
+
+          {/* todo list*/}
+          <div className="projectBox">
+            <span className="projectTitle">
+              Todo List
+              <br />
+            </span>
+            <span className="projectDescription">
+              Todo List made with React
+              <br />| HTML | CSS | React
+            </span>
+
+            <div className="todoList"></div>
+            <a
+              href="https://vercel.com/okerekechinweotito/react-todo-list/77743cyoh"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="demo">
+                <i class="fas fa-globe"></i> Demo
+              </button>
+            </a>
+
+            <a
+              href="https://github.com/okerekechinweotito/react-todo_list"
               rel="noreferrer"
               target="_blank"
             >

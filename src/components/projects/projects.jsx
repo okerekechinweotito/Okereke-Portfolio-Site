@@ -71,6 +71,39 @@ const Projects = () => {
             </a>
           </div>
 
+          {/* Github search */}
+          <div className="projectBox">
+            <span className="projectTitle">
+              Github Search App
+              <br />
+            </span>
+            <span className="projectDescription">
+              A Demo Website about Children Education
+              <br />| React | TailwindCSS | GhPolyglot | FramerMotion
+            </span>
+
+            <div className="githubSearch"></div>
+            <a
+              href="http://github.okereke.dev"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="demo">
+                <i class="fas fa-globe"></i> Demo
+              </button>
+            </a>
+
+            <a
+              href="https://github.com/okerekechinweotito/github-search"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="repo">
+                <i class="fab fa-github"></i> Repo
+              </button>
+            </a>
+          </div>
+
           {/* Quizz app */}
           <div className="projectBox">
             <span className="projectTitle">

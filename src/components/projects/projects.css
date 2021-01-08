@@ -33,7 +33,8 @@
 .zaddyTv,
 .movieZone,
 .quizApp,
-.todoList {
+.todoList,
+.bogoApp {
   width: 100%;
   height: 15em;
   border: none;
@@ -58,6 +59,9 @@
 }
 .todoList {
   background-image: url(./asset/todolist.png);
+}
+.bogoApp {
+  background-image: url(./asset/bogoApp.png);
 }
 
 /* demo repo buttons */
@@ -127,7 +131,8 @@
   .zaddyTv,
   .movieZone,
   .quizApp,
-  .todoList {
+  .todoList,
+  .bogoApp {
     width: 30em;
     height: 15em;
   }

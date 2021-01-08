@@ -42,6 +42,35 @@ const Projects = () => {
             </a>
           </div>
 
+          {/* Bogo app */}
+          <div className="projectBox">
+            <span className="projectTitle">
+              Bogo Apps
+              <br />
+            </span>
+            <span className="projectDescription">
+              A Demo Website about Children Education
+              <br />| HTML | SCSS | JavaScript |
+            </span>
+
+            <div className="bogoApp"></div>
+            <a href="http://bogo.okereke.dev" rel="noreferrer" target="_blank">
+              <button className="demo">
+                <i class="fas fa-globe"></i> Demo
+              </button>
+            </a>
+
+            <a
+              href="https://github.com/okerekechinweotito/bogo-apps"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="repo">
+                <i class="fab fa-github"></i> Repo
+              </button>
+            </a>
+          </div>
+
           {/* Quizz app */}
           <div className="projectBox">
             <span className="projectTitle">

@@ -16,12 +16,16 @@ const Projects = () => {
           {/* MovieZone */}
           <div className="projectBox">
             <span className="projectTitle">
-              Movie Search App
+              <strong>Movie Search App</strong>
               <br />
             </span>
             <span className="projectDescription">
               Discover new movies and watch exciting trailers
-              <br />| React | MovieDB API | Styled Components
+              <br />
+              <i>
+                | ReactJS | MovieDB API | Styled Components | Context API |
+                Framer Motion |
+              </i>
             </span>
 
             <div className="movieZone"></div>
@@ -45,12 +49,14 @@ const Projects = () => {
           {/* Bogo app */}
           <div className="projectBox">
             <span className="projectTitle">
-              Bogo Apps
+              <strong>Bogo Apps</strong>
               <br />
             </span>
             <span className="projectDescription">
-              A Demo Website about Children Education
-              <br />| HTML | SCSS | JavaScript |
+              An interactive and colorful Demo Website about Children Education,
+              Children apps and Children Stories
+              <br />
+              <i>| HTML | SCSS | JavaScript |</i>
             </span>
 
             <div className="bogoApp"></div>
@@ -71,15 +77,46 @@ const Projects = () => {
             </a>
           </div>
 
+          {/* Quizz app */}
+          <div className="projectBox">
+            <span className="projectTitle">
+              <strong>Quiz App</strong>
+              <br />
+            </span>
+            <span className="projectDescription">
+              Quiz App - Test your knowledge with a range of General Questions
+              <br />
+              <i>| HTML | CSS | ReactJS |</i>
+            </span>
+
+            <div className="quizApp"></div>
+            <a href="http://quiz.okereke.dev" rel="noreferrer" target="_blank">
+              <button className="demo">
+                <i class="fas fa-globe"></i> Demo
+              </button>
+            </a>
+
+            <a
+              href="https://github.com/okerekechinweotito/quiz-app"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="repo">
+                <i class="fab fa-github"></i> Repo
+              </button>
+            </a>
+          </div>
+
           {/* Github search */}
           <div className="projectBox">
             <span className="projectTitle">
-              Github Search App
+              <strong>Github Search App</strong>
               <br />
             </span>
             <span className="projectDescription">
               A Demo Website about Children Education
-              <br />| React | TailwindCSS | GhPolyglot | FramerMotion
+              <br />
+              <i>| ReactJS | TailwindCSS | GhPolyglot | FramerMotion</i>
             </span>
 
             <div className="githubSearch"></div>
@@ -104,45 +141,17 @@ const Projects = () => {
             </a>
           </div>
 
-          {/* Quizz app */}
-          <div className="projectBox">
-            <span className="projectTitle">
-              Quiz App
-              <br />
-            </span>
-            <span className="projectDescription">
-              Quiz App - Test your knowledge with a range of General Questions
-              <br />| HTML | CSS | React |
-            </span>
-
-            <div className="quizApp"></div>
-            <a href="http://quiz.okereke.dev" rel="noreferrer" target="_blank">
-              <button className="demo">
-                <i class="fas fa-globe"></i> Demo
-              </button>
-            </a>
-
-            <a
-              href="https://github.com/okerekechinweotito/quiz-app"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <button className="repo">
-                <i class="fab fa-github"></i> Repo
-              </button>
-            </a>
-          </div>
-
           {/* okereke.dev */}
           <div className="projectBox">
             <span className="projectTitle">
               {" "}
-              Okereke.dev
+              <strong> Okereke.dev</strong>
               <br />
             </span>
             <span className="projectDescription">
               My Portfolio Site
-              <br />| React | HTML | CSS |{" "}
+              <br />
+              <i>| HTML | CSS | React-Router </i>
             </span>
 
             <div className="okerekeDev"></div>
@@ -165,12 +174,13 @@ const Projects = () => {
           {/* ZaddyTV */}
           <div className="projectBox">
             <span className="projectTitle">
-              ZaddyTv
+              <strong>ZaddyTv</strong>
               <br />
             </span>
             <span className="projectDescription">
               Landing Page for a Whatsapp TV
-              <br />| HTML | CSS |{" "}
+              <br />
+              <i>| HTML | CSS |</i>{" "}
             </span>
 
             <div className="zaddyTv"></div>
@@ -194,12 +204,13 @@ const Projects = () => {
           {/* todo list*/}
           <div className="projectBox">
             <span className="projectTitle">
-              Todo List
+              <strong>Todo List</strong>
               <br />
             </span>
             <span className="projectDescription">
               Todo List made with React
-              <br />| HTML | CSS | React
+              <br />
+              <i>| HTML | CSS | React</i>
             </span>
 
             <div className="todoList"></div>

@@ -24,7 +24,8 @@
   margin-bottom: 2em;
   margin-top: 1em;
   width: 19em;
-  height: 23em;
+  /*  height: 23em; */
+  height: auto;
   background-color: #0e0413;
 }
 
@@ -115,7 +116,7 @@
     align-items: center;
     width: 80em;
     min-height: auto;
-    margin-top: -7em;
+    margin-top: -2em;
   }
   .projectWrapper {
     display: flex;
@@ -127,7 +128,8 @@
   /* individual project box */
   .projectBox {
     width: 30em;
-    height: 24em;
+    /*  height: 24em; */
+    height: auto;
   }
 
   /* individual picture boxes */

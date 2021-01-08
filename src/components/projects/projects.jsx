@@ -171,7 +171,7 @@ const Projects = () => {
 
             <div className="todoList"></div>
             <a
-              href="https://vercel.com/okerekechinweotito/react-todo-list/77743cyoh"
+              href="https://todo-list-okereke.vercel.app/"
               rel="noreferrer"
               target="_blank"
             >

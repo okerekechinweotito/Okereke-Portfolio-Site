@@ -114,7 +114,8 @@ const Projects = () => {
               <br />
             </span>
             <span className="projectDescription">
-              A Demo Website about Children Education
+              View your github statistics represented on graphs and browse your
+              Top Repositories
               <br />
               <i>| ReactJS | TailwindCSS | GhPolyglot | FramerMotion</i>
             </span>
@@ -204,11 +205,11 @@ const Projects = () => {
           {/* Coffee Shop */}
           <div className="projectBox">
             <span className="projectTitle">
-              <strong>ZaddyTv</strong>
+              <strong>Coffee Shop</strong>
               <br />
             </span>
             <span className="projectDescription">
-              Coffee Shop Demo Landing page
+              Coffee Shop Landing page
               <br />
               <i>| HTML | SCSS | JavaScript</i>
             </span>

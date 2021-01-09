@@ -201,6 +201,40 @@ const Projects = () => {
             </a>
           </div>
 
+          {/* Coffee Shop */}
+          <div className="projectBox">
+            <span className="projectTitle">
+              <strong>ZaddyTv</strong>
+              <br />
+            </span>
+            <span className="projectDescription">
+              Coffee Shop Demo Landing page
+              <br />
+              <i>| HTML | SCSS | JavaScript</i>
+            </span>
+
+            <div className="coffeeShop"></div>
+            <a
+              href="https://coffee.okereke.dev/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="demo">
+                <i class="fas fa-globe"></i> Demo
+              </button>
+            </a>
+
+            <a
+              href="https://github.com/okerekechinweotito/coffee-shop"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="repo">
+                <i class="fab fa-github"></i> Repo
+              </button>
+            </a>
+          </div>
+
           {/* todo list*/}
           <div className="projectBox">
             <span className="projectTitle">

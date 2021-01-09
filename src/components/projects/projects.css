@@ -36,7 +36,8 @@
 .quizApp,
 .todoList,
 .bogoApp,
-.githubSearch {
+.githubSearch,
+.coffeeShop {
   width: 100%;
   height: 15em;
   border: none;
@@ -67,6 +68,9 @@
 }
 .githubSearch {
   background-image: url(./asset/githubsearch.png);
+}
+.coffeeShop {
+  background-image: url(./asset/coffeeShop.png);
 }
 
 /* demo repo buttons */
@@ -139,7 +143,8 @@
   .quizApp,
   .todoList,
   .bogoApp,
-  .githubSearch {
+  .githubSearch,
+  .coffeeShop {
     width: 30em;
     height: 15em;
   }

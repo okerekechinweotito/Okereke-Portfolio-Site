@@ -43,21 +43,38 @@
   background-color: #01090e;
 }
 .blogPic1,
-.blogPic2 {
+.blogPic2,
+.blogPic3,
+.blogPic4,
+.blogPic5,
+.blogPic6 {
   width: 17em;
   height: 10em;
   margin: auto;
-}
-.blogPic1,
-.blogPic2 {
   background-position: center;
   background-size: contain;
 }
-.blogPic1 {
+.blogBox .projectTitle {
+  font-size: 1.5em;
+}
+
+.blogPic2 {
   background-image: url(https://binarymove.com/wp-content/uploads/2018/11/Most-Popular-Programming-Languages-678x381.png);
 }
-.blogPic2 {
-  background-image: url(https://xavierscollegecom.files.wordpress.com/2017/02/department_of_computer_science_300_160.png?w=900);
+.blogPic1 {
+  background-image: url(https://www.freecodecamp.org/news/content/images/size/w2000/2020/06/Angular-vs-Vue.png);
+}
+.blogPic4 {
+  background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--phtox0U7--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/1200/1%2AEOPCay4ML76rIUskd6ZwRg.png);
+}
+.blogPic3 {
+  background-image: url(https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2017/03/Blog_front-end-developer1.jpg.webp);
+}
+.blogPic5 {
+  background-image: url(https://s27389.pcdn.co/wp-content/uploads/2020/09/why-problem-solving-analytics-needs-new-thinking.jpeg);
+}
+.blogPic6 {
+  background-image: url(https://thumbs.dreamstime.com/z/collection-popular-internet-companies-logo-kiev-ukraine-september-ibm-facebook-amazon-google-microsoft-printed-white-78916193.jpg);
 }
 .blogSnippet {
   text-align: left;
@@ -70,7 +87,7 @@
   /* main page wrapper */
   #blog {
     margin-left: 20em;
-    margin-top: -6em;
+    margin-top: 0em;
   }
   /* blog wrapper*/
   .blogContent {
@@ -96,7 +113,11 @@
 
   /* blog picture boxes */
   .blogPic1,
-  .blogPic2 {
+  .blogPic2,
+  .blogPic3,
+  .blogPic4,
+  .blogPic5,
+  .blogPic6 {
     width: 20em;
     height: 15em;
   }

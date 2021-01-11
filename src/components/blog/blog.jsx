@@ -21,11 +21,11 @@ const Blog = () => {
             </span>
             <div className="blogPic1"></div>
             <div className="blogSnippet">
-              React.js remains the undisputed king of the 7 kingdoms.Angular is
+              React.js remains the undisputed king of the 7 kingdoms. Angular is
               Google’s advanced and mature JavaScript framework. It is practical
               and useful, but it takes time to build applications. Vue, on the
               other side, is more suited to less demanding applications and is
-              often used for swift prototyping ...
+              often used for swift prototyping...
             </div>
             <a
               href="https://blog.okereke.dev/battle-of-the-bastards-angular-vs-vue"
@@ -46,7 +46,7 @@ const Blog = () => {
               Are you trying to figure out what languages are going to be in
               demand in 2021? This is the exact article you need to be looking
               at. This article highlights the hottest most in-demand programming
-              languages of 2021 ...
+              languages of 2021...
             </div>
             <a
               href="https://blog.okereke.dev/top-7-programming-languages-to-learn-in-2021"
@@ -91,7 +91,7 @@ const Blog = () => {
               Below is a complete reference of all VS code keyboard shortcuts
               (Visual Studio code for Windows). Like and share ! Other operating
               systems’ keyboard shortcuts and additional unassigned shortcuts
-              available at ...
+              available at...
             </div>
             <a
               href="https://blog.okereke.dev/vs-code-shortcut-referencecheat-sheet-windows"

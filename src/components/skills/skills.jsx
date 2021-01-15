@@ -42,6 +42,14 @@ const Skills = () => {
             </div>
             <span>Redux</span>
           </div>
+
+          <div className="logoBox">
+            <div className="logoPic">
+              <i class="devicon-sass-original colored"></i>
+            </div>
+            <span>SCSS</span>
+          </div>
+
           <div className="logoBox">
             <div className="logoPic">
               <i class="devicon-jquery-plain colored"></i>
@@ -59,12 +67,7 @@ const Skills = () => {
             </div>
             <span>Git</span>
           </div>
-          <div className="logoBox">
-            <div className="logoPic">
-              <i class="devicon-babel-plain colored"></i>
-            </div>
-            <span>Babel</span>
-          </div>
+
           <div className="logoBox">
             <div className="logoPic">
               <i class="devicon-webpack-plain colored"></i>

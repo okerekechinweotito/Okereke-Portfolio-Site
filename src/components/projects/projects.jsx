@@ -209,9 +209,10 @@ const Projects = () => {
               <br />
             </span>
             <span className="projectDescription">
-              Enye Profiles - dynamically displays User Profiles
+              Enye Profiles - fetches data from Enye-API and dynamically renders
+              User Profiles
               <br />
-              <i>| HTML | CSS | React | Evergreen-UI | Enye-API |</i>
+              <i>| HTML | Enye-API | React | Evergreen-UI | CSS |</i>
             </span>
 
             <div className="enyeProfiles"></div>

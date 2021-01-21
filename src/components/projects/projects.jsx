@@ -211,10 +211,10 @@ const Projects = () => {
             <span className="projectDescription">
               Enye Profiles - dynamically displays User Profiles
               <br />
-              <i>| HTML | CSS | React | Evergreen-UI | Enye API</i>
+              <i>| HTML | CSS | React | Evergreen-UI | Enye-API |</i>
             </span>
 
-            <div className="coffeeShop"></div>
+            <div className="enyeProfiles"></div>
             <a
               href=" https://enye-frontend-challenge.vercel.app/"
               rel="noreferrer"

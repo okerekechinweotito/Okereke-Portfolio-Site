@@ -202,6 +202,40 @@ const Projects = () => {
             </a>
           </div>
 
+          {/* Enye Profiles */}
+          <div className="projectBox">
+            <span className="projectTitle">
+              <strong>Enye Profiles</strong>
+              <br />
+            </span>
+            <span className="projectDescription">
+              Enye Profiles - dynamically displays User Profiles
+              <br />
+              <i>| HTML | CSS | React | Evergreen-UI | Enye API</i>
+            </span>
+
+            <div className="coffeeShop"></div>
+            <a
+              href=" https://enye-frontend-challenge.vercel.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="demo">
+                <i class="fas fa-globe"></i> Demo
+              </button>
+            </a>
+
+            <a
+              href="https://github.com/okerekechinweotito/enye-frontend-challenge"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="repo">
+                <i class="fab fa-github"></i> Repo
+              </button>
+            </a>
+          </div>
+
           {/* Coffee Shop */}
           <div className="projectBox">
             <span className="projectTitle">

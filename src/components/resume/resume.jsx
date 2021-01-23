@@ -219,7 +219,7 @@ class Resume extends Component {
             </div>
           </div>
           <a
-            href="https://drive.google.com/file/d/1CsJL7UEefJvzV_S5DV3jBCb3Sc-Q79Xo/view?usp=sharing"
+            href="https://drive.google.com/file/d/1oAr9BdPcOsZOi0vPkCoIpXlm80lmvBhY/view?usp=sharing"
             rel="noreferrer"
             target="_blank"
           >

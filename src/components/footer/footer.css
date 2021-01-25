@@ -15,12 +15,13 @@
 }
 /* individual icon */
 .socialIcons a {
-  color: #36627c;
+  color: #b2c4ce;
   margin: 5px;
   margin-top: 0;
 }
 .socialIcons span {
-  color: #36627c;
+  color: #b2c4ce;
+
   font-size: 2em;
 }
 .socialIcons a:hover {

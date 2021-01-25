@@ -85,7 +85,8 @@
   background-color: #090236;
   border: none;
   border-radius: 5em;
-  color: #93b6c9;
+  color: #b2c4ce;
+
   padding: 0.5em;
   font-size: 1.2em;
   cursor: pointer;
@@ -105,12 +106,12 @@
 .repo:hover {
   background-color: #01090e;
 }
-.repo .fa-github {
-  color: #36627c;
-}
 /* project title */
 .projectTitle {
   font-size: 1.5em;
+}
+.projectDescription {
+  padding: 5px;
 }
 
 /* media queries for desktop view */

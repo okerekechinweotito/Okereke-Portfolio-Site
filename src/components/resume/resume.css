@@ -196,7 +196,7 @@ ul {
   animation-direction: alternate;
   margin-top: 0.5em;
   background-color: #2d12c5;
-  color: #9db4c2;
+  color: #ffffff;
   font-weight: 900;
   --width: 100px;
   --height: calc(var(--width) / 3);

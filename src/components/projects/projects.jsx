@@ -117,7 +117,7 @@ const Projects = () => {
               View your github statistics represented on graphs and browse your
               Top Repositories
               <br />
-              <i>| ReactJS | TailwindCSS | GhPolyglot | FramerMotion</i>
+              <i>| ReactJS | TailwindCSS | GhPolyglot | FramerMotion |</i>
             </span>
 
             <div className="githubSearch"></div>

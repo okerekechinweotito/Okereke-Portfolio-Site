@@ -19,19 +19,19 @@ const Home = () => {
             wrapper="span"
             steps={[
               "Frontend Developer",
-              1500,
+              2000,
               "Google Analytics Expert",
-              1500,
+              2000,
               "Open-Source Contributor",
-              1500,
+              2000,
               "Computer Science Major",
-              1500,
+              2000,
               "AI Advocate",
-              1500,
+              2000,
               "Hackathon Winner",
-              1500,
+              2000,
               "Web Master",
-              1500,
+              2000,
             ]}
           ></Typical>
         </span>

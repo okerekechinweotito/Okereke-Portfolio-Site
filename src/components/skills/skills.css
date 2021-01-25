@@ -167,7 +167,6 @@ h2 hr {
   margin-right: 3em;
   background-color: #010c13;
   background-color: #130e46;
-
   border-radius: 1em;
 }
 /* recommend person picture boxes */
@@ -210,9 +209,7 @@ span hr {
 .recommendPic4 {
   background-image: url(./asset/dennis.jfif);
 }
-.recommendBox span {
-  padding: 5px;
-}
+
 /* media queries for desktop view */
 @media screen and (min-width: 749px) {
   /* page wrapper */
@@ -284,6 +281,5 @@ span hr {
   .recommendBox span,
   .recommendPerson span {
     font-size: 1.12em;
-    padding: 5px;
   }
 }

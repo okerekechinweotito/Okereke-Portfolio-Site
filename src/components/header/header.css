@@ -23,7 +23,9 @@ header {
   width: 120px;
   height: 50px;
   font-size: 2em;
-  color: #758899;
+  /*  color: #758899; */
+  color: #b2c4ce;
+
   font-style: oblique;
   text-align: center;
 }
@@ -44,7 +46,7 @@ header {
 .bar2,
 .bar3 {
   height: 2px;
-  background-color: #cdcde4;
+  background-color: #b2c4ce;
   margin: 4.5px;
   width: 35px;
   pointer-events: none;
@@ -105,7 +107,8 @@ header {
 .sideNavHidden span {
   padding: 1em 8px 8px 32px;
   font-size: 20px;
-  color: #36627c;
+  color: #b2c4ce;
+
   display: block;
   transition: 0.3s;
 }
@@ -147,6 +150,8 @@ header {
     display: block;
     padding: 20px 8px 8px 100px;
     color: #36627c;
+    color: #b2c4ce;
+
     margin-top: -2em;
     cursor: none;
   }

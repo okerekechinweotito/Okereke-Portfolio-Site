@@ -166,6 +166,9 @@ h2 hr {
   margin-left: 3em;
   margin-right: 3em;
   background-color: #010c13;
+  background-color: #130e46;
+
+  border-radius: 1em;
 }
 /* recommend person picture boxes */
 .recommendPic1,

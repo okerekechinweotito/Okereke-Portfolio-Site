@@ -26,7 +26,9 @@
   width: 19em;
   /*  height: 23em; */
   height: auto;
-  background-color: #0e0413;
+  /* background-color: #0e0413; */
+  background-color: #130e46;
+  border-radius: 1em;
 }
 
 /* individual picture boxes */

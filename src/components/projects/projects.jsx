@@ -1,6 +1,7 @@
 import React from "react";
 import "./projects.css";
 import { Link } from "react-router-dom";
+import Card from "./card";
 
 const Projects = () => {
   return (
@@ -13,297 +14,99 @@ const Projects = () => {
           <hr />
         </h2>
         <div className="projectWrapper">
-          {/* MovieZone */}
-          <div className="projectBox">
-            <span className="projectTitle">
-              <strong>Movie Search App</strong>
-              <br />
-            </span>
-            <span className="projectDescription">
-              Discover new movies and watch exciting trailers
-              <br />
-              <i>
-                | ReactJS | MovieDB API | Styled Components | Context API |
-                Framer Motion |
-              </i>
-            </span>
+          <Card
+            name={"Movie Search App"}
+            description={"Discover new movies and watch exciting trailers"}
+            technologies={
+              "| ReactJS | MovieDB API | Styled Components | Context API | Framer Motion |"
+            }
+            demo={"http://movie.okereke.dev"}
+            repo={"https://github.com/okerekechinweotito/MovieZone"}
+            cssidentifier={"movieZone"}
+          />
+          <Card
+            name={"Bogo Apps"}
+            description={
+              "An interactive and colorful Demo Website about Children Education, Children apps and Children Stories"
+            }
+            technologies={"| HTML | SCSS | JavaScript |"}
+            demo={"http://bogo.okereke.dev"}
+            repo={"https://github.com/okerekechinweotito/bogo-apps"}
+            cssidentifier={"bogoApp"}
+          />
 
-            <div className="movieZone"></div>
-            <a href="http://movie.okereke.dev" rel="noreferrer" target="_blank">
-              <button className="demo">
-                <i class="fas fa-globe"></i> Demo
-              </button>
-            </a>
+          <Card
+            name={"Quiz App"}
+            description={
+              "Quiz App - Test your knowledge with a range of General Questions"
+            }
+            technologies={"| HTML | CSS | ReactJS |"}
+            demo={"http://quiz.okereke.dev"}
+            repo={"https://github.com/okerekechinweotito/quiz-app"}
+            cssidentifier={"quizApp"}
+          />
 
-            <a
-              href="https://github.com/okerekechinweotito/MovieZone"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <button className="repo">
-                <i class="fab fa-github"></i> Repo
-              </button>
-            </a>
-          </div>
+          <Card
+            name={"Github Search App"}
+            description={
+              "View your github statistics represented on graphs and browse your Top Repositories"
+            }
+            technologies={
+              "| ReactJS | TailwindCSS | GhPolyglot | FramerMotion |"
+            }
+            demo={"http://github.okereke.dev"}
+            repo={"https://github.com/okerekechinweotito/github-search"}
+            cssidentifier={"githubSearch"}
+          />
 
-          {/* Bogo app */}
-          <div className="projectBox">
-            <span className="projectTitle">
-              <strong>Bogo Apps</strong>
-              <br />
-            </span>
-            <span className="projectDescription">
-              An interactive and colorful Demo Website about Children Education,
-              Children apps and Children Stories
-              <br />
-              <i>| HTML | SCSS | JavaScript |</i>
-            </span>
+          <Card
+            name={"Okereke.dev"}
+            description={"My Portfolio Site"}
+            technologies={"| HTML | CSS | React-Router "}
+            demo={"https://www.okereke.dev/"}
+            repo={"https://github.com/okerekechinweotito/okereke.dev"}
+            cssidentifier={"okerekeDev"}
+          />
 
-            <div className="bogoApp"></div>
-            <a href="http://bogo.okereke.dev" rel="noreferrer" target="_blank">
-              <button className="demo">
-                <i class="fas fa-globe"></i> Demo
-              </button>
-            </a>
+          <Card
+            name={"ZaddyTv"}
+            description={"Landing Page for a Whatsapp TV"}
+            technologies={"| HTML | CSS | "}
+            demo={"http://zaddytv.ga"}
+            repo={"https://github.com/okerekechinweotito/ZaddyTv"}
+            cssidentifier={"zaddyTv"}
+          />
 
-            <a
-              href="https://github.com/okerekechinweotito/bogo-apps"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <button className="repo">
-                <i class="fab fa-github"></i> Repo
-              </button>
-            </a>
-          </div>
+          <Card
+            name={"Enye Profiles"}
+            description={
+              "Enye Profiles - fetches data from Enye-API and dynamically renders User Profiles"
+            }
+            technologies={"| HTML | Enye-API | React | Evergreen-UI | CSS |"}
+            demo={" https://enye-frontend-challenge.vercel.app/"}
+            repo={
+              "https://github.com/okerekechinweotito/enye-frontend-challenge"
+            }
+            cssidentifier={"enyeProfiles"}
+          />
 
-          {/* Quizz app */}
-          <div className="projectBox">
-            <span className="projectTitle">
-              <strong>Quiz App</strong>
-              <br />
-            </span>
-            <span className="projectDescription">
-              Quiz App - Test your knowledge with a range of General Questions
-              <br />
-              <i>| HTML | CSS | ReactJS |</i>
-            </span>
+          <Card
+            name={"Coffee Shop"}
+            description={"Coffee Shop Landing page"}
+            technologies={"| HTML | SCSS | JavaScript"}
+            demo={"https://coffee.okereke.dev/"}
+            repo={"https://github.com/okerekechinweotito/coffee-shop"}
+            cssidentifier={"coffeeShop"}
+          />
 
-            <div className="quizApp"></div>
-            <a href="http://quiz.okereke.dev" rel="noreferrer" target="_blank">
-              <button className="demo">
-                <i class="fas fa-globe"></i> Demo
-              </button>
-            </a>
-
-            <a
-              href="https://github.com/okerekechinweotito/quiz-app"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <button className="repo">
-                <i class="fab fa-github"></i> Repo
-              </button>
-            </a>
-          </div>
-
-          {/* Github search */}
-          <div className="projectBox">
-            <span className="projectTitle">
-              <strong>Github Search App</strong>
-              <br />
-            </span>
-            <span className="projectDescription">
-              View your github statistics represented on graphs and browse your
-              Top Repositories
-              <br />
-              <i>| ReactJS | TailwindCSS | GhPolyglot | FramerMotion |</i>
-            </span>
-
-            <div className="githubSearch"></div>
-            <a
-              href="http://github.okereke.dev"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <button className="demo">
-                <i class="fas fa-globe"></i> Demo
-              </button>
-            </a>
-
-            <a
-              href="https://github.com/okerekechinweotito/github-search"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <button className="repo">
-                <i class="fab fa-github"></i> Repo
-              </button>
-            </a>
-          </div>
-
-          {/* okereke.dev */}
-          <div className="projectBox">
-            <span className="projectTitle">
-              {" "}
-              <strong> Okereke.dev</strong>
-              <br />
-            </span>
-            <span className="projectDescription">
-              My Portfolio Site
-              <br />
-              <i>| HTML | CSS | React-Router </i>
-            </span>
-
-            <div className="okerekeDev"></div>
-            <a href="https://www.okereke.dev/" rel="noreferrer" target="_blank">
-              <button className="demo">
-                <i class="fas fa-globe"></i> Demo
-              </button>
-            </a>
-            <a
-              href="https://github.com/okerekechinweotito/okereke.dev"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <button className="repo">
-                <i class="fab fa-github"></i> Repo
-              </button>
-            </a>
-          </div>
-
-          {/* ZaddyTV */}
-          <div className="projectBox">
-            <span className="projectTitle">
-              <strong>ZaddyTv</strong>
-              <br />
-            </span>
-            <span className="projectDescription">
-              Landing Page for a Whatsapp TV
-              <br />
-              <i>| HTML | CSS |</i>{" "}
-            </span>
-
-            <div className="zaddyTv"></div>
-            <a href="http://zaddytv.ga" rel="noreferrer" target="_blank">
-              <button className="demo">
-                <i class="fas fa-globe"></i> Demo
-              </button>
-            </a>
-
-            <a
-              href="https://github.com/okerekechinweotito/ZaddyTv"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <button className="repo">
-                <i class="fab fa-github"></i> Repo
-              </button>
-            </a>
-          </div>
-
-          {/* Enye Profiles */}
-          <div className="projectBox">
-            <span className="projectTitle">
-              <strong>Enye Profiles</strong>
-              <br />
-            </span>
-            <span className="projectDescription">
-              Enye Profiles - fetches data from Enye-API and dynamically renders
-              User Profiles
-              <br />
-              <i>| HTML | Enye-API | React | Evergreen-UI | CSS |</i>
-            </span>
-
-            <div className="enyeProfiles"></div>
-            <a
-              href=" https://enye-frontend-challenge.vercel.app/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <button className="demo">
-                <i class="fas fa-globe"></i> Demo
-              </button>
-            </a>
-
-            <a
-              href="https://github.com/okerekechinweotito/enye-frontend-challenge"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <button className="repo">
-                <i class="fab fa-github"></i> Repo
-              </button>
-            </a>
-          </div>
-
-          {/* Coffee Shop */}
-          <div className="projectBox">
-            <span className="projectTitle">
-              <strong>Coffee Shop</strong>
-              <br />
-            </span>
-            <span className="projectDescription">
-              Coffee Shop Landing page
-              <br />
-              <i>| HTML | SCSS | JavaScript</i>
-            </span>
-
-            <div className="coffeeShop"></div>
-            <a
-              href="https://coffee.okereke.dev/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <button className="demo">
-                <i class="fas fa-globe"></i> Demo
-              </button>
-            </a>
-
-            <a
-              href="https://github.com/okerekechinweotito/coffee-shop"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <button className="repo">
-                <i class="fab fa-github"></i> Repo
-              </button>
-            </a>
-          </div>
-
-          {/* todo list*/}
-          <div className="projectBox">
-            <span className="projectTitle">
-              <strong>Todo List</strong>
-              <br />
-            </span>
-            <span className="projectDescription">
-              Todo List made with React
-              <br />
-              <i>| HTML | CSS | React</i>
-            </span>
-
-            <div className="todoList"></div>
-            <a
-              href="https://todo-list-okereke.vercel.app/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <button className="demo">
-                <i class="fas fa-globe"></i> Demo
-              </button>
-            </a>
-
-            <a
-              href="https://github.com/okerekechinweotito/react-todo_list"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <button className="repo">
-                <i class="fab fa-github"></i> Repo
-              </button>
-            </a>
-          </div>
+          <Card
+            name={"Todo List"}
+            description={"Todo List made with React"}
+            technologies={"| HTML | CSS | React"}
+            demo={"https://todo-list-okereke.vercel.app/"}
+            repo={"https://github.com/okerekechinweotito/react-todo_list"}
+            cssidentifier={"todoList"}
+          />
         </div>
       </section>
 

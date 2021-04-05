@@ -9,25 +9,12 @@ import Projects from "./components/projects/projects.jsx";
 import Blog from "./components/blog/blog.jsx";
 import Contact from "./components/contact/contact.jsx";
 import ScrollToTop from "./components/footer/scrollToTop.jsx";
-import createHistory from "history/createBrowserHistory";
-import ReactGA from "react-ga";
-import { useEffect } from "react";
 
-ReactGA.initialize("G-NGBQC24L3B");
-
-const history = createHistory();
-history.listen((location) => {
-  ReactGA.set({ page: location.pathname });
-  ReactGA.pageview(location.pathname);
-});
+/* ReactGA.initialize("G-NGBQC24L3B"); */
 
 function App() {
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname);
-  });
-
   return (
-    <BrowserRouter history={history}>
+    <BrowserRouter>
       <ScrollToTop />
       <div className="App">
         <Header />

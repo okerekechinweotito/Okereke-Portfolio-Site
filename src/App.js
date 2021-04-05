@@ -13,7 +13,7 @@ import createHistory from "history/createBrowserHistory";
 import ReactGA from "react-ga";
 import { useEffect } from "react";
 
-ReactGA.initialize("256931987");
+ReactGA.initialize("G-NGBQC24L3B");
 
 const history = createHistory();
 history.listen((location) => {

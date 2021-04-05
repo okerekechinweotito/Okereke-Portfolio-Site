@@ -13,6 +13,8 @@ import createHistory from "history/createBrowserHistory";
 import ReactGA from "react-ga";
 import { useEffect } from "react";
 
+ReactGA.initialize("G-BF9YX18SHE");
+
 const history = createHistory();
 history.listen((location) => {
   ReactGA.set({ page: location.pathname });

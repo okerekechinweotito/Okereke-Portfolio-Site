@@ -22,7 +22,7 @@ history.listen((location) => {
 function App() {
   useEffect(() => {
     ReactGA.pageview(window.location.pathname);
-  }, []);
+  });
 
   return (
     <BrowserRouter history={history}>

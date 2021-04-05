@@ -1,6 +1,7 @@
 import "./App.css";
 import { useEffect } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import ReactGa from "react-ga";
 import Header from "./components/header/header.jsx";
 import Home from "./components/home/home.jsx";
 import Footer from "./components/footer/footer.jsx";
@@ -11,6 +12,11 @@ import Blog from "./components/blog/blog.jsx";
 import Contact from "./components/contact/contact.jsx";
 import ScrollToTop from "./components/footer/scrollToTop.jsx";
 
+function App() {
+  useEffect(() => {
+    ReactGa.initialize("G-BF9YX18SHE");
+    ReactGa.pageview(window.location.pathname + window.location.search);
+  }, []);
 
   return (
     <BrowserRouter>

@@ -17,7 +17,13 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
       <div className="App">
-        <Header />
+        <article className="block">
+          {" "}
+          You have been blocked from viewing this Site <br />
+          Contact +2349029421440
+        </article>
+
+        {/*  <Header />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/skills" component={Skills} />
@@ -26,7 +32,7 @@ function App() {
           <Route path="/blog" component={Blog} />
           <Route path="/contact" component={Contact} />
         </Switch>
-        <Footer />
+        <Footer /> */}
       </div>
     </BrowserRouter>
   );

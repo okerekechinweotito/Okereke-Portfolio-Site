@@ -9,12 +9,16 @@ import Projects from "./components/projects/projects.jsx";
 import Blog from "./components/blog/blog.jsx";
 import Contact from "./components/contact/contact.jsx";
 import ScrollToTop from "./components/footer/scrollToTop.jsx";
+import ReactGA from "react-ga";
+import RouteChangeTracker from "./RouteChangeTracker";
 
-/* ReactGA.initialize("G-NGBQC24L3B"); */
+const TRACKING_ID = "UA - 185955286 - 2";
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
   return (
     <BrowserRouter>
+      <RouteChangeTracker />
       <ScrollToTop />
       <div className="App">
         <Header />

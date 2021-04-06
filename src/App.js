@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route,useLocation } from "react-router-dom";
 import Header from "./components/header/header.jsx";
 import Home from "./components/home/home.jsx";
 import Footer from "./components/footer/footer.jsx";
@@ -10,17 +10,23 @@ import Blog from "./components/blog/blog.jsx";
 import Contact from "./components/contact/contact.jsx";
 import ScrollToTop from "./components/footer/scrollToTop.jsx";
 import ReactGA from "react-ga";
-import RouteChangeTracker from "./RouteChangeTracker";
+import InitializeReactGA from "./googleAnalytics";
 
-const TRACKING_ID = "UA-185955286-3";
-ReactGA.initialize(TRACKING_ID);
 
-function App() {
-  const TRACKING_ID = "UA-185955286-3";
-  ReactGA.initialize(TRACKING_ID);
+
+function usePageViews() {
+	let location = useLocation();
+	useEffect(() => {
+		InitializeReactGA(ReactGA);
+		ReactGA.set({ page: location.pathname });
+		ReactGA.pageview(location.pathname);
+  }, [location]);
+  
+
+  function App() {
+  usePageViews();
   return (
     <BrowserRouter>
-      <RouteChangeTracker />
       <ScrollToTop />
       <div className="App">
         <Header />

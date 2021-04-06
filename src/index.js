@@ -8,7 +8,7 @@ ReactDOM.render(
   <React.StrictMode>
     {" "}
     {/*   <App /> */}
-    <div>You have been blocked from viewing this Site</div>
+    <div className="block">You have been blocked from viewing this Site</div>
   </React.StrictMode>,
   document.getElementById("root")
 );

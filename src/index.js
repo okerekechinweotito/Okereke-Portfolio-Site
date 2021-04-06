@@ -7,7 +7,8 @@ import reportWebVitals from "./reportWebVitals";
 ReactDOM.render(
   <React.StrictMode>
     {" "}
-    <App />
+    {/*   <App /> */}
+    <div className="block"> You have been blocked from viewing this Site</div>
   </React.StrictMode>,
   document.getElementById("root")
 );

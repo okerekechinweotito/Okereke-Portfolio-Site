@@ -12,10 +12,12 @@ import ScrollToTop from "./components/footer/scrollToTop.jsx";
 import ReactGA from "react-ga";
 import RouteChangeTracker from "./RouteChangeTracker";
 
-const TRACKING_ID = "UA - 185955286 - 2";
+const TRACKING_ID = "UA-185955286-3";
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
+  const TRACKING_ID = "UA-185955286-3";
+  ReactGA.initialize(TRACKING_ID);
   return (
     <BrowserRouter>
       <RouteChangeTracker />

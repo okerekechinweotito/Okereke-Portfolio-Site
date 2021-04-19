@@ -104,15 +104,6 @@ const Projects = () => {
           />
 
           <Card
-            name={"Coffee Shop"}
-            description={"Coffee Shop Landing page"}
-            technologies={"| HTML | SCSS | JavaScript"}
-            demo={"https://coffee.okereke.dev/"}
-            repo={"https://github.com/okerekechinweotito/coffee-shop"}
-            cssidentifier={"coffeeShop"}
-          />
-
-          <Card
             name={"Todo List"}
             description={"Todo List made with React"}
             technologies={"| HTML | CSS | React"}

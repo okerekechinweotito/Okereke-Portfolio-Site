@@ -39,7 +39,6 @@
 .todoList,
 .bogoApp,
 .githubSearch,
-.coffeeShop,
 .enyeProfiles,
 .zuriLanding {
   width: 100%;
@@ -72,9 +71,6 @@
 }
 .githubSearch {
   background-image: url(./asset/githubsearch.png);
-}
-.coffeeShop {
-  background-image: url(./asset/coffeeShop.png);
 }
 .enyeProfiles {
   background-image: url(./asset/enyeProfiles.png);
@@ -155,7 +151,6 @@
   .todoList,
   .bogoApp,
   .githubSearch,
-  .coffeeShop,
   .enyeProfiles,
   .zuriLanding {
     width: 30em;

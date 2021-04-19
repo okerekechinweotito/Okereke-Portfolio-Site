@@ -11,32 +11,34 @@ import Blog from "./components/blog/blog.jsx";
 import Contact from "./components/contact/contact.jsx";
 import ScrollToTop from "./components/footer/scrollToTop.jsx";
 import ReactGA from "react-ga";
-import InitializeReactGA from "./googleAnalytics";
-
+import InitializeReactGA from "./helpers/googleAnalytics";
+import Router from "./helpers/Route";
+/* 
+function usePageViews() {
+  let location = useLocation();
+  useEffect(() => {
+    InitializeReactGA(ReactGA);
+    ReactGA.set({ page: location.pathname });
+    ReactGA.pageview(location.pathname);
+  }, [location]);
+} */
 function App() {
-  function usePageViews() {
-    let location = useLocation();
-    useEffect(() => {
-      InitializeReactGA(ReactGA);
-      ReactGA.set({ page: location.pathname });
-      ReactGA.pageview(location.pathname);
-    }, [location]);
-  }
-  usePageViews();
+  /*  usePageViews(); */
 
   return (
     <BrowserRouter>
       <ScrollToTop />
       <div className="App">
         <Header />
-        <Switch>
+        <Router />
+        {/*  <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/skills" component={Skills} />
           <Route path="/projects" component={Projects} />
           <Route path="/resume" component={Resume} />
           <Route path="/blog" component={Blog} />
           <Route path="/contact" component={Contact} />
-        </Switch>
+        </Switch> */}
         <Footer />
       </div>
     </BrowserRouter>

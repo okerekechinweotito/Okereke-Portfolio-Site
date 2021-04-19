@@ -18,7 +18,7 @@ function usePageViews() {
     ReactGA.pageview(location.pathname);
   }, [location]);
 }
-export default function Router() {
+export default function Pages() {
   usePageViews();
   return (
     <Switch>

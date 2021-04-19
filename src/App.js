@@ -1,17 +1,19 @@
 import "./App.css";
-import { BrowserRouter, Switch, Route, useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import {
+  BrowserRouter /*  Switch, Route, useLocation */,
+} from "react-router-dom";
+/* import { useEffect } from "react"; */
 import Header from "./components/header/header.jsx";
-import Home from "./components/home/home.jsx";
+/* import Home from "./components/home/home.jsx"; */
 import Footer from "./components/footer/footer.jsx";
-import Resume from "./components/resume/resume.jsx";
+/* import Resume from "./components/resume/resume.jsx";
 import Skills from "./components/skills/skills.jsx";
 import Projects from "./components/projects/projects.jsx";
 import Blog from "./components/blog/blog.jsx";
-import Contact from "./components/contact/contact.jsx";
+import Contact from "./components/contact/contact.jsx"; */
 import ScrollToTop from "./components/footer/scrollToTop.jsx";
-import ReactGA from "react-ga";
-import InitializeReactGA from "./helpers/googleAnalytics";
+/* import ReactGA from "react-ga";
+import InitializeReactGA from "./helpers/googleAnalytics"; */
 import Router from "./helpers/Route";
 /* 
 function usePageViews() {

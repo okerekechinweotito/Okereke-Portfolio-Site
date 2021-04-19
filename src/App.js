@@ -1,5 +1,6 @@
 import "./App.css";
-import { BrowserRouter, Switch, Route,useLocation } from "react-router-dom";
+import { BrowserRouter, Switch, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import Header from "./components/header/header.jsx";
 import Home from "./components/home/home.jsx";
 import Footer from "./components/footer/footer.jsx";
@@ -12,19 +13,7 @@ import ScrollToTop from "./components/footer/scrollToTop.jsx";
 import ReactGA from "react-ga";
 import InitializeReactGA from "./googleAnalytics";
 
-
-
-function usePageViews() {
-	let location = useLocation();
-	useEffect(() => {
-		InitializeReactGA(ReactGA);
-		ReactGA.set({ page: location.pathname });
-		ReactGA.pageview(location.pathname);
-  }, [location]);
-  
-
-  function App() {
-  usePageViews();
+function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />

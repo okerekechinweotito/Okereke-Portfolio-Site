@@ -34,7 +34,6 @@ const Projects = () => {
             repo={"https://github.com/okerekechinweotito/bogo-apps"}
             cssidentifier={"bogoApp"}
           />
-
           <Card
             name={"ZURI Landing Page"}
             description={
@@ -58,7 +57,6 @@ const Projects = () => {
             repo={"https://github.com/okerekechinweotito/quiz-app"}
             cssidentifier={"quizApp"}
           />
-
           <Card
             name={"Github Search App"}
             description={
@@ -71,7 +69,6 @@ const Projects = () => {
             repo={"https://github.com/okerekechinweotito/github-search"}
             cssidentifier={"githubSearch"}
           />
-
           <Card
             name={"Okereke.dev"}
             description={"My Portfolio Site"}
@@ -80,7 +77,6 @@ const Projects = () => {
             repo={"https://github.com/okerekechinweotito/okereke.dev"}
             cssidentifier={"okerekeDev"}
           />
-
           <Card
             name={"ZaddyTv"}
             description={"Landing Page for a Whatsapp TV"}
@@ -89,7 +85,6 @@ const Projects = () => {
             repo={"https://github.com/okerekechinweotito/ZaddyTv"}
             cssidentifier={"zaddyTv"}
           />
-
           <Card
             name={"Enye Profiles"}
             description={

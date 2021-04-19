@@ -36,6 +36,19 @@ const Projects = () => {
           />
 
           <Card
+            name={"ZURI Landing Page"}
+            description={
+              "A Landing_Page Prototype made for ZURI-TEAM and INGRESSIVE_FOR_GOOD"
+            }
+            technologies={"| HTML | CSS | Bootstrap | JavaScript |"}
+            demo={"https://team-thor-landing-page.vercel.app"}
+            repo={
+              "https://github.com/okerekechinweotito/TEAM-THOR--LANDING-PAGE"
+            }
+            cssidentifier={"zuriLanding"}
+          />
+
+          <Card
             name={"Quiz App"}
             description={
               "Quiz App - Test your knowledge with a range of General Questions"

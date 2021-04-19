@@ -40,7 +40,8 @@
 .bogoApp,
 .githubSearch,
 .coffeeShop,
-.enyeProfiles {
+.enyeProfiles,
+.zuriLanding {
   width: 100%;
   height: 15em;
   border: none;
@@ -77,6 +78,9 @@
 }
 .enyeProfiles {
   background-image: url(./asset/enyeProfiles.png);
+}
+.zuriLanding {
+  background-image: url(./asset/Zuri-landing-page.png);
 }
 
 /* demo repo buttons */
@@ -152,7 +156,8 @@
   .bogoApp,
   .githubSearch,
   .coffeeShop,
-  .enyeProfiles {
+  .enyeProfiles,
+  .zuriLanding {
     width: 30em;
     height: 15em;
   }

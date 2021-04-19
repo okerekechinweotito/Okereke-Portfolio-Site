@@ -55,6 +55,7 @@
   margin: auto;
   background-position: center;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 .blogBox .projectTitle {
   font-size: 1.5em;

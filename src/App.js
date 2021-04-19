@@ -10,9 +10,9 @@ import Projects from "./components/projects/projects.jsx";
 import Blog from "./components/blog/blog.jsx";
 import Contact from "./components/contact/contact.jsx";
 import ScrollToTop from "./components/footer/scrollToTop.jsx";
-import ReactGA from "react-ga";
+/* import ReactGA from "react-ga";
 import InitializeReactGA from "./googleAnalytics";
-
+ */
 function App() {
   return (
     <BrowserRouter>

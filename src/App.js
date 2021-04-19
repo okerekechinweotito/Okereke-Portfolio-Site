@@ -1,6 +1,10 @@
 import "./App.css";
-import { BrowserRouter, Switch, Route, useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import {
+  BrowserRouter,
+  Switch,
+  Route /*  useLocation */,
+} from "react-router-dom";
+/* import { useEffect } from "react"; */
 import Header from "./components/header/header.jsx";
 import Home from "./components/home/home.jsx";
 import Footer from "./components/footer/footer.jsx";

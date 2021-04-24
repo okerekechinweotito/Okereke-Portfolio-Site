@@ -36,10 +36,8 @@
 .zaddyTv,
 .movieZone,
 .quizApp,
-.todoList,
 .bogoApp,
 .githubSearch,
-.enyeProfiles,
 .zuriLanding {
   width: 100%;
   height: 15em;
@@ -63,17 +61,11 @@
 .quizApp {
   background-image: url(./asset/quiz.png);
 }
-.todoList {
-  background-image: url(./asset/todolist.png);
-}
 .bogoApp {
   background-image: url(./asset/bogoApp.png);
 }
 .githubSearch {
   background-image: url(./asset/githubsearch.png);
-}
-.enyeProfiles {
-  background-image: url(./asset/enyeProfiles.png);
 }
 .zuriLanding {
   background-image: url(./asset/zuriLanding.png);
@@ -148,10 +140,8 @@
   .zaddyTv,
   .movieZone,
   .quizApp,
-  .todoList,
   .bogoApp,
   .githubSearch,
-  .enyeProfiles,
   .zuriLanding {
     width: 30em;
     height: 15em;

@@ -85,27 +85,6 @@ const Projects = () => {
             repo={"https://github.com/okerekechinweotito/ZaddyTv"}
             cssidentifier={"zaddyTv"}
           />
-          <Card
-            name={"Enye Profiles"}
-            description={
-              "Enye Profiles - fetches data from Enye-API and dynamically renders User Profiles"
-            }
-            technologies={"| HTML | Enye-API | React | Evergreen-UI | CSS |"}
-            demo={" https://enye-frontend-challenge.vercel.app/"}
-            repo={
-              "https://github.com/okerekechinweotito/enye-frontend-challenge"
-            }
-            cssidentifier={"enyeProfiles"}
-          />
-
-          <Card
-            name={"Todo List"}
-            description={"Todo List made with React"}
-            technologies={"| HTML | CSS | React"}
-            demo={"https://todo-list-okereke.vercel.app/"}
-            repo={"https://github.com/okerekechinweotito/react-todo_list"}
-            cssidentifier={"todoList"}
-          />
         </div>
       </section>
 

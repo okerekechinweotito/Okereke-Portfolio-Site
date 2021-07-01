@@ -24,6 +24,17 @@ const Projects = () => {
             repo={"https://github.com/okerekechinweotito/MovieZone"}
             cssidentifier={"movieZone"}
           />
+
+          <Card
+            name={"endPoverty"}
+            description={
+              "endPoverty is a non-profit organization founded to help those living under extreme poverty inline with the United Nations Sustainable Development Goals"
+            }
+            technologies={"| HTML | CSS | JavaScript |"}
+            demo={"http://www.endpoverty.ml"}
+            repo={"https://github.com/okerekechinweotito/endPoverty-commercial"}
+            cssidentifier={"endPoverty"}
+          />
           <Card
             name={"Bogo Apps"}
             description={

@@ -38,7 +38,8 @@
 .quizApp,
 .bogoApp,
 .githubSearch,
-.zuriLanding {
+.zuriLanding,
+.endPoverty {
   width: 100%;
   height: 15em;
   border: none;
@@ -69,6 +70,9 @@
 }
 .zuriLanding {
   background-image: url(./asset/zuriLanding.png);
+}
+.endPoverty {
+  background-image: url(./asset/endpoverty.png);
 }
 
 /* demo repo buttons */
@@ -142,7 +146,8 @@
   .quizApp,
   .bogoApp,
   .githubSearch,
-  .zuriLanding {
+  .zuriLanding,
+  .endPoverty {
     width: 30em;
     height: 15em;
   }

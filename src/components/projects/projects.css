@@ -33,13 +33,12 @@
 
 /* individual picture boxes */
 .okerekeDev,
-.zaddyTv,
 .movieZone,
 .quizApp,
 .bogoApp,
 .githubSearch,
-.zuriLanding,
-.endPoverty {
+.endPoverty,
+.zuriChat {
   width: 100%;
   height: 15em;
   border: none;
@@ -51,9 +50,6 @@
 /* project picture url */
 .okerekeDev {
   background-image: url(./asset/okerekedev.png);
-}
-.zaddyTv {
-  background-image: url(./asset/zaddyTvga.png);
 }
 
 .movieZone {
@@ -68,13 +64,12 @@
 .githubSearch {
   background-image: url(./asset/githubsearch.png);
 }
-.zuriLanding {
-  background-image: url(./asset/zuriLanding.png);
-}
 .endPoverty {
   background-image: url(./asset/endpoverty.png);
 }
-
+.zuriChat {
+  background-image: url(./asset//zuriChat.png);
+}
 /* demo repo buttons */
 .demo,
 .repo {
@@ -141,13 +136,12 @@
 
   /* individual picture boxes */
   .okerekeDev,
-  .zaddyTv,
   .movieZone,
   .quizApp,
   .bogoApp,
   .githubSearch,
-  .zuriLanding,
-  .endPoverty {
+  .endPoverty,
+  .zuriChat {
     width: 30em;
     height: 15em;
   }

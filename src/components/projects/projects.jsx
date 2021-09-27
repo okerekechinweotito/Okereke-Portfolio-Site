@@ -35,39 +35,18 @@ const Projects = () => {
             repo={"https://github.com/okerekechinweotito/endPoverty-commercial"}
             cssidentifier={"endPoverty"}
           />
-          <Card
-            name={"Bogo Apps"}
-            description={
-              "An interactive and colorful Demo Website about Children Education, Children apps and Children Stories"
-            }
-            technologies={"| HTML | SCSS | JavaScript |"}
-            demo={"http://bogo.okereke.dev"}
-            repo={"https://github.com/okerekechinweotito/bogo-apps"}
-            cssidentifier={"bogoApp"}
-          />
-          <Card
-            name={"ZURI Landing Page"}
-            description={
-              "A Landing_Page Prototype made for ZURI-TEAM and INGRESSIVE_FOR_GOOD"
-            }
-            technologies={"| HTML | CSS | Bootstrap | JavaScript |"}
-            demo={"https://team-thor-landing-page.vercel.app"}
-            repo={
-              "https://github.com/okerekechinweotito/TEAM-THOR--LANDING-PAGE"
-            }
-            cssidentifier={"zuriLanding"}
-          />
 
           <Card
-            name={"Quiz App"}
+            name={"ZURI CHAT"}
             description={
-              "Quiz App - Test your knowledge with a range of General Questions"
+              "HNGi8 - A messaging app inspired by slack that lets professionals collaborate through workspaces "
             }
-            technologies={"| HTML | CSS | ReactJS |"}
-            demo={"http://quiz.okereke.dev"}
-            repo={"https://github.com/okerekechinweotito/quiz-app"}
-            cssidentifier={"quizApp"}
+            technologies={"| ReactJS | ExpressJS | Golang | "}
+            demo={"https://www.zuri.chat"}
+            repo={"https://github.com/okerekechinweotito/zc_main"}
+            cssidentifier={"zuriChat"}
           />
+
           <Card
             name={"Github Search App"}
             description={
@@ -80,6 +59,29 @@ const Projects = () => {
             repo={"https://github.com/okerekechinweotito/github-search"}
             cssidentifier={"githubSearch"}
           />
+
+          <Card
+            name={"Bogo Apps"}
+            description={
+              "An interactive and colorful landing page about Children Education, Children apps and Children Stories"
+            }
+            technologies={"| HTML | SCSS | JavaScript |"}
+            demo={"http://bogo.okereke.dev"}
+            repo={"https://github.com/okerekechinweotito/bogo-apps"}
+            cssidentifier={"bogoApp"}
+          />
+
+          <Card
+            name={"Quiz App"}
+            description={
+              "Quiz App - Test your knowledge with a range of General Questions"
+            }
+            technologies={"| HTML | CSS | ReactJS |"}
+            demo={"http://quiz.okereke.dev"}
+            repo={"https://github.com/okerekechinweotito/quiz-app"}
+            cssidentifier={"quizApp"}
+          />
+
           <Card
             name={"Okereke.dev"}
             description={"My Portfolio Site"}
@@ -87,14 +89,6 @@ const Projects = () => {
             demo={"https://www.okereke.dev/"}
             repo={"https://github.com/okerekechinweotito/okereke.dev"}
             cssidentifier={"okerekeDev"}
-          />
-          <Card
-            name={"ZaddyTv"}
-            description={"Landing Page for a Whatsapp TV"}
-            technologies={"| HTML | CSS | "}
-            demo={"http://zaddytv.ga"}
-            repo={"https://github.com/okerekechinweotito/ZaddyTv"}
-            cssidentifier={"zaddyTv"}
           />
         </div>
       </section>

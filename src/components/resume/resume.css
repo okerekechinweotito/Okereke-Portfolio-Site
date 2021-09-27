@@ -134,7 +134,9 @@ ul {
 .imsuLogo,
 .sololearnLogo,
 .fccLogo,
-.llLogo {
+.llLogo,
+.hngLogo,
+.zuriLogo {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -150,6 +152,16 @@ ul {
 .gdgLogo {
   background-image: url(./asset/gdgLogo.png);
 }
+
+.zuriLogo {
+  background-image: url(./asset/zuriLogo.jpg);
+  margin-right: 0.3em;
+}
+
+.hngLogo {
+  background-image: url(./asset/hngLogo.png);
+  margin-right: 0.3em;
+}
 /* Education subheading */
 .imsuLogo {
   background-image: url(./asset/imsuLogo.png);
@@ -163,6 +175,7 @@ ul {
 .llLogo {
   background-image: url(./asset/llLogo.png);
 }
+
 /* resume download button */
 .resumeDownload {
   margin-top: 1em;

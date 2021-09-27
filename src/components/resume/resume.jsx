@@ -29,13 +29,44 @@ class Resume extends Component {
           <h2>
             Experience <hr />
           </h2>
+
+          <div className="box">
+            <div className="logoName">
+              <div className="hngLogo"></div>
+              <span>HNGi8</span>
+            </div>
+            <ul>
+              <h5>August 2021 - October 2021</h5>
+              <li>Built Zuri Chat , a messaging app inspired by slack</li>
+              <li>Completed the Internship and became a HNG finalist</li>
+              <li>
+                Expanded my network and collaborated with fellow interns on
+                different platforms
+              </li>
+            </ul>
+          </div>
+          <div className="box">
+            <div className="logoName">
+              <div className="zuriLogo"></div>
+              <span>ZURI Internship</span>
+            </div>
+            <ul>
+              <h5>January 2021 - June 2021</h5>
+              <li>
+                Successfully built an Educational Learning Management System
+                (LMS)
+              </li>
+              <li>Collaborated and networked with fellow interns</li>
+            </ul>
+          </div>
+
           <div className="box">
             <div className="logoName">
               <div className="upworkLogo"></div>
               <span>Upwork</span>
             </div>
             <ul>
-              <h5>July 2020 - Present</h5>
+              <h5>July 2020 - January 2021</h5>
               <li>
                 Designed and Developed Web applications inline with client
                 requirements

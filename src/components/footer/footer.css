@@ -9,7 +9,7 @@
 .socialIcons {
   display: flex;
   flex-flow: row wrap;
-  width: 15em;
+  width: 16em;
   height: 4em;
   justify-content: center;
 }

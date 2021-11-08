@@ -250,7 +250,7 @@ class Resume extends Component {
             </div>
           </div>
           <a
-            href="https://drive.google.com/file/d/1oAr9BdPcOsZOi0vPkCoIpXlm80lmvBhY/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Utj88Hz4h_njWSULBKpA7qzRZKWUXxiP/view?usp=sharing"
             rel="noreferrer"
             target="_blank"
           >

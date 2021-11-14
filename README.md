@@ -1,7 +1,7 @@
 
 
 
-# This is the First Iteration of my personal portfolio site
+# This is the First Iteration of my portfolio site
 
 # 🌐 Live @ www.okereke1.netlify.app
 
